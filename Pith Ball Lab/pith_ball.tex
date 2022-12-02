@@ -5,6 +5,7 @@
 \usepackage{gensymb}
 \usepackage{cancel}
 \usepackage{tkz-euclide}
+\usepackage{graphicx}
 \title{Pith Ball Lab}
 \author{SPH-4UI - Tristan Simpson}
 
@@ -70,14 +71,7 @@ To solve for $F_{T_{x}}$ we developed a formula for $F_{T_{y}}$ then used \textb
     \end{align*}\leavevmode
 \end{minipage}
 \begin{minipage}{0.5\textwidth}
-    \begin{tikzpicture}[scale=0.75]
-        \coordinate [label=left:$16.4\degree$] (C) at (-1.5cm,-1.cm);
-        \coordinate (A) at (1.5cm,-1.0cm);
-        \coordinate (B) at (1.5cm,1.0cm);
-        \draw (C) -- node[above] {$F_{T}$} (B) -- node[right] {$F_{T_{y}}$} (A) -- node[below] {$F_{T_{x}}$} (C);
-        \draw (1.25cm,-1.0cm) rectangle (1.5cm,-0.75cm);
-        \tkzMarkAngle[size=1cm,color=cyan](A,C,B)
-    \end{tikzpicture}
+    \includegraphics[scale=0.33]{./images/pith_ball_diagram}
 \end{minipage}
 
 \vspace*{0.3cm}
