@@ -8,7 +8,7 @@ My Progression Towards Learning LaTeX
 - I'm currently learning how to do diagrams. As of now I've hit the very basics of drawing a right angle triangle. (Copy and Pasted the code and trying to understand how it works right now)
 
 # Previews
-<img width="434" alt="Screen Shot 2022-12-01 at 8 53 01 PM" src="https://user-images.githubusercontent.com/75189508/205198029-9bfd1c30-f422-4066-909e-4bdd9cc001c6.png">
+<img width="327" alt="Screen Shot 2022-12-01 at 9 21 55 PM" src="https://user-images.githubusercontent.com/75189508/205200372-6bb6b02b-7551-4103-9ba7-8657f7c0c7c2.png">
 
 # License
 MIT License
