@@ -1,10 +1,14 @@
 # Learning LaTeX
+![LaTeX_logo](https://user-images.githubusercontent.com/75189508/205197994-f6a28162-6a7c-4431-8ed4-dded53703d8a.svg)
 My Progression Towards Learning LaTeX
 
 # Progression Announcements
 - I'M STILL LEARNING LATEX! This repository is solely for me and any others attempting to learn LaTeX to keep track of my progress / progress alongside me.
 
 - I'm currently learning how to do diagrams. As of now I've hit the very basics of drawing a right angle triangle. (Copy and Pasted the code and trying to understand how it works right now)
+
+# Previews
+<img width="327" alt="Screen Shot 2022-12-01 at 9 21 55 PM" src="https://user-images.githubusercontent.com/75189508/205200372-6bb6b02b-7551-4103-9ba7-8657f7c0c7c2.png">
 
 # License
 MIT License
