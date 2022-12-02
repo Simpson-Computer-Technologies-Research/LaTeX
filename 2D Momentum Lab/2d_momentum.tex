@@ -1,0 +1,149 @@
+% // Packages and Document Class
+\documentclass{article}
+\usepackage{multirow}
+\usepackage{cancel}
+\usepackage{amssymb}
+
+% // Title
+\title{2D Momentum Lab}
+\author{SPH4UI - Tristan, Oliver, + 2}
+\begin{document}
+\maketitle
+
+% // The purpose of this lab. What did you do?
+\section*{Purpose}
+The purpose of this lab was to determine whether the law of conservation of momentum is present between two colliding marbles of equal mass.
+To determine whether momentum was conserved, we used the formula: $P_{tot} = P_{tot}\prime$ along with components in both $x$ and $y$ directions.
+
+
+% // The materials that were used in the lab
+\section*{Materials}
+\begin{enumerate}
+    \item {\textbf{One} metal Ramp.}
+    \item {\textbf{One} type C Clamp.}
+    \item {\textbf{Two} metal marbles of equal mass.}
+    \item {\textbf{One} meter stick.}
+    \item {\textbf{Three} sheets of regular blank paper.}
+    \item {\textbf{Three} sheets of carbon paper.}
+\end{enumerate}
+
+
+% // The steps your group took to perform the lab successfully
+\section*{Procedures}
+\textbf{Part 1:}
+\begin{enumerate}
+    \item {The metal ramp was clamped to the edge of the desk.}
+    \item {Both the regular paper and carbon paper were positioned on the ground, straight infront of the ramp.}
+    \item {The two papers were taped to fortify their position, with the carbon paper ontop of the regular paper.}
+    \item {The marble was dropped from the ramp, with it hitting the paper below.}
+    \item {The distance from the table to this point was noted.}
+    \item {The above steps were repeated another \textbf{five} times.}
+\end{enumerate}\leavevmode\newline
+\textbf{Part 2:}
+\begin{enumerate}
+    \item {The other sheets of carbon and regular paper were placed to the left and right sides of the first sheet.}
+    \item {These other sheets were positioned for the colliding marbles to hit them.}
+    \item {The ramp was angled slightly to the right.}
+    \item {The second marble was placed at the front of the ramp on a screw.}
+    \item {The first marble was released.}
+    \item {After the marbles collided and hit the ground paper, the distance between the desk and the points was noted. (both $x$ and $y$)}
+    \item {The above steps were repeated another \textbf{five} times.}
+\end{enumerate}\leavevmode
+
+
+% // Observations for each marble
+\section*{Observations}
+Data provided by Halle Nunes\newline\newline
+\begin{tabular}{ |c|c|c|c|c| }
+    \hline
+    Marble & $v_{x}$ & $v_{y}$  & $v_{xc}$ & $v_{yc}$ \\
+    \hline
+    1      & 0m/s    & 43.15m/s & 15.6m/s  & 22.1m/s  \\
+    \hline
+    2      & 0m/s    & 0m/s     & 19.7m/s  & 23.6m/s  \\
+    \hline
+\end{tabular}.\newline\newline
+
+
+% // Calculating Ptotx and Ptotx Prime
+\section*{Calculations ($P_{tot_{x}}$)}
+$P_{tot_{x}} = P_{tot_{x}}\prime$
+\newline\newline
+$m_{x_{1}}v_{x_{1}} + m_{x_{2}}v_{x_{2}} = m_{xc_{1}}v_{xc_{1}} + m_{xc_{2}}v_{xc_{2}}$
+\newline\newline
+$(\cancel{m}_{x_{1}}) (v_{x_{1}}) + (\cancel{m}_{x_{2}})(v_{x_{2}})
+    = (\cancel{m}_{xc_{1}})(v_{xc_{1}}) + (\cancel{m}_{xc_{2}})(v_{xc_{2}})$
+\newline\newline
+$\cancel{v}_{x_{1}}^{0} + \cancel{v}_{x_{2}}^{0} = (-15.6m/s) + (19.7m/s)$
+\newline\newline
+$0 = 4.1000m/s$
+\newline\newline
+$\therefore P_{tot_{x}} = 0$
+\newline
+$\therefore P_{tot_{xc}} = 4.1000m/s$
+
+
+% // Calculating Ptoty and Ptoty Prime
+\section*{Calculations ($P_{tot_{y}}$)}
+$P_{tot_{y}} = P_{tot_{y}}\prime$
+\newline\newline
+$m_{y_{1}}v_{y_{1}} + m_{y_{2}}v_{y_{2}} = m_{yc_{1}}v_{yc_{1}} + m_{yc_{2}}v_{yc_{2}}$
+\newline\newline
+$(\cancel{m}_{y_{1}}) (v_{y_{1}}) + (\cancel{m}_{y_{2}})(v_{y_{2}})
+    = (\cancel{m}_{yc_{1}})(v_{yc_{1}}) + (\cancel{m}_{yc_{2}})(v_{yc_{2}})$
+\newline\newline
+$(43.15m/s) + \cancel{v}_{y_{2}}^{0} = (22.1m/s) + (23.6m/s)$
+\newline\newline
+$43.150 = 45.700m/s$
+\newline\newline
+$\therefore P_{tot_{y}} = 43.150m/s$
+\newline
+$\therefore P_{tot_{yc}} = 45.700m/s$
+\newline
+
+% // Calculating Ptot and Ptot Prime
+\section*{Calculations ($P_{tot}$) and ($P_{tot}\prime$)}
+
+% // Ptot Normal
+$P_{tot} = \sqrt[]{{(P_{tot_{x}})}^{2} + {(P_{tot_{y}})}^{2}}$
+\newline\newline
+$P_{tot} = \sqrt[]{{(0)}^{2} + {(43.150)}^{2}}$
+\newline\newline
+$P_{tot} = 43.150\frac{kgm}{s}$
+\newline\newline\newline
+$P_{tot}\prime = \sqrt[]{{(P_{tot_{xc}})}^{2} + {(P_{tot_{yc}})}^{2}}$
+\newline\newline
+$P_{tot}\prime = \sqrt[]{{(4.1000)}^{2} + {(45.700)}^{2}}$
+\newline\newline
+$P_{tot}\prime = 45.883\frac{kgm}{s}$
+\newline\newline\newline
+$\therefore$ Since $P_{tot} \neq P_{tot}\prime$ momentum was not conserved.
+\newline
+
+\section*{Sources of Error}
+\subsection*{Errors}
+\begin{enumerate}
+    \item {The table that the ramp was on had an extending edge. This made measuring the distance between the table and the points harder and potentially inaccurate.}
+    \item {The ramp was rotated too much.}
+    \item {The marble's masses were not the same.}
+\end{enumerate}
+\subsection*{Solutions}
+\begin{enumerate}
+    \item {Place the ramp on a table with no edge.}
+    \item {Using a protractor to measure the distance the ramp was rotated would resolve this error}
+    \item {Measuring the weight of the marbles to ensure that they are the same mass would resolve this error.}
+\end{enumerate}\leavevmode
+
+\section*{Conclusion}
+This lab efficiently demonstrated the law of conservation of momentum between two colliding objects.
+By the data provided through our group experiments, it was resolved that the law of
+conservation of momentum was \textbf{\textit{not}} present.
+\newline
+
+\section*{Synthesis}
+The learnings from this lab are applicable to an abundance of real-world scenarios.
+The first application is a game of pool. In a game of pool, the cue ball is shot at other at-rest balls on the billiards table.
+Secondly, having a direct correlation to this lab are car collisions. The law of conservation of momentum is consistently utilized
+throughout the tests of a cars safety and strength. Finally, this lab can be applied to moving pendulums.
+
+\end{document}

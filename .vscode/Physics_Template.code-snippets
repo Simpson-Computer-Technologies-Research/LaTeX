@@ -1,0 +1,17 @@
+{
+    "Physics Template": {
+        "prefix": [
+            "template"
+        ],
+        "body": [
+            "\\documentclass{article}",
+            "\\title{${1:Physics Lab}}",
+            "\\author{${2:Tristan Simpson}}",
+            "\\begin{document}",
+            "\\maketitle",
+            "$0",
+            "\\end{document}"
+        ],
+        "description": "Generates a Physics LaTeX Template!"
+    }
+}
