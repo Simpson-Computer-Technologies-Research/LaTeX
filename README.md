@@ -8,7 +8,8 @@ My Progression Towards Learning LaTeX
 - I'm currently learning how to do diagrams. I Switched from Tikz to using images and https://www.geogebra.org/calculator
 
 # Previews
-<img width="327" alt="Screen Shot 2022-12-01 at 9 21 55 PM" src="https://user-images.githubusercontent.com/75189508/205200372-6bb6b02b-7551-4103-9ba7-8657f7c0c7c2.png">
+![Capture2](https://user-images.githubusercontent.com/75189508/205397807-396fb43e-3247-47e4-9aac-40466606c282.JPG)
+![Capture](https://user-images.githubusercontent.com/75189508/205397804-a0577804-8543-4842-82cb-14e0b54908d9.JPG)
 
 # License
 MIT License
