@@ -1,7 +1,6 @@
 ![LaTeX_logo](https://user-images.githubusercontent.com/75189508/205197994-f6a28162-6a7c-4431-8ed4-dded53703d8a.svg)
-My Progression Towards Learning LaTeX
 
-# Progression Announcements
+# About
 - I'M STILL LEARNING! This repository is solely for me and any others attempting to learn LaTeX to keep track of my progress / progress alongside me.
 
 - Currently learning how to do diagrams. I switched from the Tikz package to using images and https://www.geogebra.org/calculator
