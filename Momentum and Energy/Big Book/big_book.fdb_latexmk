@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1670033370 "/Users/tristan/Desktop/LaTeX/Momentum and Energy/Big Book/big_book.tex" "big_book.pdf" "big_book" 1670033372
-  "/Users/tristan/Desktop/LaTeX/Momentum and Energy/Big Book/big_book.tex" 1670033370 11371 d0bb1f4c4725c41f1c977321660874a4 ""
+["pdflatex"] 1670074707 "/Users/tristan/Desktop/LaTeX/Momentum and Energy/Big Book/big_book.tex" "big_book.pdf" "big_book" 1670074709
+  "/Users/tristan/Desktop/LaTeX/Momentum and Energy/Big Book/big_book.tex" 1670074706 18751 1aecc3f4f91457c128a88494edfcebb2 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -197,10 +197,14 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1669863582 2826441 6ebe6978f0bc292e914c5569d2b7dcbd ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "big_book.aux" 1670033372 1165 3c47834d357d09c77fdd89c55abf9d4b "pdflatex"
-  "big_book.tex" 1670033370 11371 d0bb1f4c4725c41f1c977321660874a4 ""
+  "big_book.aux" 1670074709 1165 0049d5ede9fa722e6c7f05ad0f7d2fdd "pdflatex"
+  "big_book.tex" 1670074706 18751 1aecc3f4f91457c128a88494edfcebb2 ""
   "images/2d_momentum_graph.png" 1670017830 60185 50a57ab16324b5006f6f25386b809153 ""
+  "images/boulder.png" 1670072424 27753 24bab1b1f44f1724ced7ec1a75de5e2e ""
+  "images/car_crash.png" 1670073985 138253 69eb9cc22f5b797246c756558ac2b59d ""
   "images/child_rope.png" 1670028637 20724 f622bdcc50be9a579d9882c8ba07a5a7 ""
+  "images/elastic_collision.png" 1670067729 36545 d49248cee20f5d5981185c419fda72d5 ""
+  "images/springs.png" 1670070037 204345 ad9efc968f7a684a673dad7fddba806b ""
   (generated)
   "big_book.aux"
   "big_book.log"

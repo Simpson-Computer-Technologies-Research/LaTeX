@@ -33,7 +33,7 @@
     \end{flushleft}
     \subsection{Momentum (1)}
     \begin{flushleft}
-        The two objects do \textbf{\textit{not}} move together after colliding. Instead, they seperate from eachother, both going in different paths.\newline\newline
+        The two objects do \textbf{\textit{not}} move together after colliding. Instead, they seperate from eachother, both moving in different paths.\newline\newline
         $P_{tot} = P_{tot}\prime$ \\
         \vspace*{10pt}
         $P_{a} + P_{b} = P_{a}\prime + P_{b}\prime$ \\
@@ -43,7 +43,7 @@
     \vspace*{0.03cm}
     \subsection{Momentum (2)}
     \begin{flushleft}
-        The two objects move together after colliding. Instead of seperating from eachother, the two objects have conjoined, both moving in the same path.\newline\newline
+        The two objects move together after colliding. Instead of seperating from eachother, both objects have conjoined, each moving in the same path.\newline\newline
         $P_{tot} = P_{tot}\prime$ \\
         \vspace*{10pt}
         $P_{a} + P_{b} = P_{ab}$ \\
@@ -130,6 +130,7 @@
             \item $a = \frac{\Delta v}{\Delta t}$
             \item $\Delta v = a \Delta t$
             \item $F_{net} = ma$
+            \item $\Delta v = (v_{2} - v_{1})$
         \end{itemize}
     \end{minipage}
     \subsection*{Calculation Steps}
@@ -225,7 +226,7 @@
         \end{itemize}
     \end{minipage}
     \subsection*{7.2\hspace*{0.5cm}Inelastic Momentum - Solve}
-    To solve for the velocity of the child + the rope, we must use the formula $P_{tot} = P_{tot}\prime$ and for the height of the swing after impact, we must use the formula $E_{tot} = E_{tot}\prime$\newline\newline
+    Whilst using the formula $E_{tot} = E_{tot}\prime$ the variable $E_{k}\prime$ is set to zero because when the child reaches his max height, $v = 0$ thus $E_{k} = 0$\newline\newline
     \textbf{1.} $P_{tot_{x}} = P_{tot_{x}}\prime$ \\
     \begin{adjustwidth}{0.6cm}{0pt}
         $(m_{c})({v}_{c}) + (m_{r})(\cancel{v}_{r}^0) = (m_{c + r})(v_{cr})$ \\\\
@@ -233,27 +234,142 @@
     \end{adjustwidth}\vspace*{15pt}
     \textbf{2.} $E_{tot_{y}} = E_{tot_{y}}\prime$ \\
     \begin{adjustwidth}{0.6cm}{0pt}
-        $(m_{c}g\cancelto{0}{h}) + (\frac{1}{2}m_{c}v_{c}^2) = (m_{c + r}gh)\prime + \cancelto{0}{(\frac{1}{2}mv^2)\prime}$ \\\\
+        $(m_{c}g\cancelto{0}{h}) + (\frac{1}{2}m_{c}v_{c}^2) = (m_{c + r}gh)\prime + \cancelto{0}{(\frac{1}{2}m_{c}v_{c}^2)\prime}$ \\\\
         $\therefore h = \left(\frac{(m_{c}v_{c}^2)}{2(m_{c+r}g)}\right) = \left(\frac{(22){(4.2)}^2}{2(22 + 2.6)(9.81)}\right) \approx 1.6m$
     \end{adjustwidth}\vspace*{15pt}
 
     \subsection*{7.3\hspace*{0.5cm}Elastic Momentum - Question}
+    Jeremey and Griffin are stupid and throw two live hand grenades at each other to see what happens. Hand grenade A is travelling at a velocity of 3.0m/s with a mass of 1.2kg. Hand grenade B is travelling at a velocity of 2.7m/s with a mass of 1.3kg. What is the velocity of the two objects after they collide?
+    \subsection*{7.3\hspace*{0.5cm}Elastic Momentum - Graph and Givens}
+    Determine the velocity of Hand Grenade A and Hand Grenade B post-collision.\newline\newline
+    \begin{minipage}{0.5\textwidth}
+        \includegraphics[scale=0.33]{./images/elastic_collision}
+    \end{minipage}
+    \begin{minipage}{0.5\textwidth}
+        \begin{itemize}
+            \item $m_{a} = 1.2g$
+            \item $m_{b} = 1.3kg$
+            \item $v_{a} = 3.0\frac{m}{s}$
+            \item $v_{b} = 2.7\frac{m}{s}$
+            \item $v_{a}\prime = ?$
+            \item $v_{b}\prime = ?$
+        \end{itemize}
+    \end{minipage}
+    \subsection*{7.3\hspace*{0.5cm}Elastic Momentum - Solve}
+    Because of the law of conservation of momentum, this equation is Elastic. The velocity of the objects will be same as they were before the collision.\newline\newline
+    \textbf{1.} $P_{tot} = P_{tot}\prime$ \\
+    \begin{adjustwidth}{0.6cm}{0pt}
+        $(\cancel{m_{a}})({v}_{a}) + (\cancel{m_{b}})({v}_{b}) = (\cancel{m_{a}})({v}_{a})\prime + (\cancel{m_{b}})({v}_{b})\prime$ \\\\
+        $({v}_{a}) + ({v}_{b}) = ({v}_{a})\prime + ({v}_{b})\prime$ \\\\
+        $\therefore v_{a}\prime = v_{a} = 3.0\frac{m}{s}$ \\\\
+        $\therefore v_{b}\prime = v_{b} = 2.7\frac{m}{s}$
+    \end{adjustwidth}\vspace*{15pt}
+    \textbf{2.} Proof of Elastic with $E_{tot} = E_{tot}\prime$ \\
+    \begin{adjustwidth}{0.6cm}{0pt}
+        $\frac{1}{2}mv_{a} + \frac{1}{2}mv_{b} = \frac{1}{2}mv_{a}\prime + \frac{1}{2}mv_{b}\prime$ \\\\
+        $\frac{1}{2}(1.2)(3.0) + \frac{1}{2}(1.3)(2.7) = \frac{1}{2}(1.2)(3.0) + \frac{1}{2}(1.3)(2.7)$ \\\\
+        $\therefore$ Elastic $3.055 = 3.055$
+    \end{adjustwidth}\vspace*{15pt}
+
+    \subsection*{7.4\hspace*{0.5cm}Energy with Spring - Question}
+    A low friction cart with a mass of 0.25kg travels along a horizontal track and collides
+    head on with a spring that has a spring constant of $155\frac{N}{m}$.
+    If the Spring was compressed by 6.0cm, how fast was the cart initially travelling?
+    \subsection*{7.4\hspace*{0.5cm}Energy with Spring - Graph and Givens}
+    \begin{minipage}{0.5\textwidth}
+        \includegraphics[scale=0.33]{./images/springs.png}
+    \end{minipage}
+    \begin{minipage}{0.5\textwidth}
+        \begin{itemize}
+            \item $x = 6.0cm$
+            \item $k = 155\frac{N}{m}$
+            \item $m_{c} = 0.25kg$
+            \item $v_{c} = ?$
+        \end{itemize}
+    \end{minipage}
+    \subsection*{7.4\hspace*{0.5cm}Energy with Spring - Solve}
+    Because the cart is not initially colliding with the spring, $E_{e}$ is zero. Because the cart's velocity post-collision is zero, $E_{k}$ is also zero. Because the cart and the spring are at the same height both before and after the collision, both $E_{g}$ and $E_{g}\prime$ are set to zero.\newline\newline
+    \textbf{1.} $E_{tot} = E_{tot}\prime$ \\
+    \begin{adjustwidth}{0.6cm}{0pt}
+        $E_{k} + \cancelto{0}{E_{g}} + \cancelto{0}{E_{e}} = \cancelto{0}{E_{k}\prime} + \cancelto{0}{E_{g}\prime} + E_{e}\prime$ \\\\
+        $E_{k} = E_{e}\prime$ \\\\
+        $\frac{1}{2}m_{c}v_{c}^2 = \frac{1}{2}kx^2$ \\\\
+        $\therefore v_{c} = \sqrt[]{\frac{kx^2}{m_{c}}} = \sqrt[]{\frac{(155){(6.0)}^2}{(0.25)}} \approx 149\frac{m}{s}$
+    \end{adjustwidth}\vspace*{15pt}
+    \textbf{2.} $h_{c} = 9.2m$ \\
+    \begin{adjustwidth}{0.6cm}{0pt}
+        $E_{k} + E_{g} + \cancelto{0}{E_{e}} = \cancelto{0}{E_{k}\prime} + \cancelto{0}{E_{g}\prime} + E_{e}\prime$ \\\\
+        $E_{k} + E_{g} = E_{e}\prime$ \\\\
+        $\frac{1}{2}m_{c}v_{c}^2 + m_{c}gh = \frac{1}{2}kx^2$ \\\\
+        $\therefore v_{c} = \sqrt[]{\frac{(kx^2) - (m_{c}gh)}{m_{c}}} = \sqrt[]{\frac{(155){(6.0)}^2 - (0.25)(9.81)(9.2)}{(0.25)}} \approx 149\frac{m}{s}$
+    \end{adjustwidth}\vspace*{15pt}
 
 
-    \subsection*{7.4\hspace*{0.5cm}Energy + Momentum - Question (Boulder)}
+    \subsection*{7.5\hspace*{0.5cm}Energy + Momentum - Question (Boulder)}
+    A 55.6 kg boulder sat on the side of a mountain beside a lake. The boulder was 14.6 m
+    above the surface of the lake. One winter
+    night, the boulder rolled down the mountain,
+    directly into a 204 kg ice-fishing shack that
+    was sitting on the frozen lake. What was the
+    velocity of the boulder and shack at the
+    instant that they began to slide across the
+    ice?
+    \subsection*{7.5\hspace*{0.5cm}Energy + Momentum - Graph and Givens}
+    \begin{minipage}{0.5\textwidth}
+        \includegraphics[scale=0.2]{./images/boulder.png}
+    \end{minipage}
+    \begin{minipage}{0.5\textwidth}
+        \begin{itemize}
+            \item $m_{b} = 55.6kg$
+            \item $m_{s} = 204kg$
+            \item $h_{b} = 14.6m$
+            \item $h_{s} = 0m$
+            \item $v_{bs} = ?$
+        \end{itemize}
+    \end{minipage}
+    \subsection*{7.5\hspace*{0.5cm}Energy + Momentum - Solve}
+    Because the cart is not initially colliding with the spring, $E_{e}$ is zero. Because the cart's velocity post-collision is zero, $E_{k}$ is also zero. Because the cart and the spring are at the same height both before and after the collision, both $E_{g}$ and $E_{g}\prime$ are set to zero.\newline\newline
+    \textbf{1.} $E_{tot} = E_{tot}\prime$ \\
+    \begin{adjustwidth}{0.6cm}{0pt}
+        $\cancelto{0}{E_{k}} + E_{g} = E_{k}\prime + \cancelto{0}{E_{g}\prime}$ \\\\
+        $(m_{b})(g)(h_{b}) = \frac{1}{2}m_{b}v_{b}^2$ \\\\
+        $\therefore v_{b} = \sqrt[]{\frac{(2)(m_{b})(g)(h_{b})}{m_{b}}} = \sqrt[]{\frac{(2)(55.6)(9.81)(14.6)}{(55.6)}} \approx 16.9\frac{m}{s}$
+    \end{adjustwidth}\vspace*{15pt}
+    \textbf{2.} $P_{tot} = P_{tot}\prime$ \\
+    \begin{adjustwidth}{0.6cm}{0pt}
+        $m_{b}v_{b} + m_{s}\cancelto{0}{v_{s}} = m_{b + s}v_{bs}$ \\\\
+        $\therefore v_{bs} = \frac{m_{b}v_{b}}{m_{b + s}} = \frac{(55.6)(16.9)}{(55.6 + 204)} \approx 3.61\frac{m}{s}$
+    \end{adjustwidth}\vspace*{15pt}
 
 
-    \subsection*{7.5\hspace*{0.5cm}Energy with Spring - Question}
-
-
-    \subsection*{7.6\hspace*{0.5cm}Impulse - Question}
-
-
+    \subsection*{7.6\hspace*{0.5cm}Impulses - Question}
+    Jen has a mass of 50kg and is in a car going $35\frac{m}{s}$ when she gets in an accident. The airbags deploy and bring her body to a stop in 0.500s. What is the force applied to her body?
+    \subsection*{7.6\hspace*{0.5cm}Impulses - Givens}
+    \begin{minipage}{0.5\textwidth}
+        \includegraphics[scale=0.2]{./images/car_crash.png}
+    \end{minipage}
+    \begin{minipage}{0.5\textwidth}
+        \begin{itemize}
+            \item $v_{1} = 35\frac{m}{s}$
+            \item $v_{2} = 0\frac{m}{s}$
+            \item $\Delta t = 0.500s$
+            \item $m_{J} = 50kg$
+        \end{itemize}
+    \end{minipage}
+    \subsection*{7.6\hspace*{0.5cm}Impulses - Solve}
+    We can solve this problem using the equations provided in the Impulses section of this big book.\newline\newline
+    \textbf{1.} $\Delta P = F_{net}\Delta t$ \\
+    \begin{adjustwidth}{0.6cm}{0pt}
+        $F_{net} = \frac{\Delta P}{\Delta t} = \frac{m\Delta v}{\Delta t} = \frac{m(v_{2} - v_{1})}{\Delta t}$ \\\\
+        $\therefore F_{net} = \frac{50(0 - 35)}{0.500} \approx -3500N$
+    \end{adjustwidth}\vspace*{15pt}
+    \textbf{2.} $t = 0.100s$ \\
+    \begin{adjustwidth}{0.6cm}{0pt}
+        $F_{net} = \frac{\Delta P}{\Delta t} = \frac{m\Delta v}{\Delta t} = \frac{m(v_{2} - v_{1})}{\Delta t}$ \\\\
+        $\therefore F_{net} = \frac{50(0 - 35)}{0.100} \approx -17500N$
+    \end{adjustwidth}\vspace*{15pt}
+    \subsection*{7.6\hspace*{0.5cm}Impulses - Note}
+    Therefore if the time is lower, the less force the collision has on the person. This is why airbags are so important. Airbags reduce the time within the equation.
 
 \end{adjustwidth}
-
-
-% make a diagram shwoign where Etot and Etot prime are and
-% where Ptot and Ptot prime are. Recall the boulder diagram.
-% do this in the equations area and use an equation for it
 \end{document}
