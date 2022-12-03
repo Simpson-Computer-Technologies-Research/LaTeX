@@ -10,39 +10,38 @@
 \author{Tristan Simpson}
 \begin{document}
 \maketitle
+\let\clearpage\relax
 
 \section{Equations}
-\let\clearpage\relax
-\include{sections/equations.tex}
+\include{sections/equations}
 
 \section{Units}
-\let\clearpage\relax
-\include{sections/units.tex}
+\include{sections/units}
 
 \vspace*{0.5cm}
 \section{Collisions}
-\let\clearpage\relax
-\include{sections/collisions.tex}
+\include{sections/collisions}
 
 \section{Energy and Springs}
-\let\clearpage\relax
-\include{sections/energy_springs.tex}
+\include{sections/energysprings}
 
 \section{Impulses}
-\let\clearpage\relax
-\include{sections/impulses.tex}
+\include{sections/impulses}
 
 \section{2D Momentum}
-\let\clearpage\relax
-\include{sections/2d_momentum.tex}
+\include{sections/2dmomentum}
 
 \section{Example Equations}
 \begin{adjustwidth}{1cm}{0pt}
-    \let\clearpage\relax
-    \include{sections/example_equations/2d_momentum.tex}
-    \include{sections/example_equations/elastic_momentum.tex}
-    \include{sections/example_equations/energy_springs.tex}
-    \include{sections/example_equations/impulses.tex}
-    \include{sections/example_equations/inelastic_momentum.tex}
+    \include{sections/example_equations/2dmomentum}
+    \include{sections/example_equations/inelasticmomentum}
+    \include{sections/example_equations/elasticmomentum}
+    \include{sections/example_equations/energysprings}
+    \include{sections/example_equations/energymomentum}
+    \include{sections/example_equations/impulses}
+
+    % This last one doesn't appear. If this is removed then
+    % the one above this won't appear. Couldn't find a solution.
+    \include{sections/example_equations/impulses}
 \end{adjustwidth}
 \end{document}

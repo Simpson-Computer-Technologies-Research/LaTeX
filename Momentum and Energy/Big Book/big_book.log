@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.30)  3 DEC 2022 09:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.30)  3 DEC 2022 09:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -439,7 +439,7 @@ Local configuration file tkz-euclide.cfg found and used
 2022/02/25 4.051b tkz-obj-eu-show.tex
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-triangles.tex
 2022/02/25 4.051b tkz-obj-eu-triangles.tex
-)) (./big_book.aux (./sections/equations.aux) (./sections/units.aux) (./sections/collisions.aux) (./sections/energy_springs.aux) (./sections/impulses.aux) (./sections/2d_momentum.aux) (./sections/example_equations/2d_momentum.aux) (./sections/example_equations/elastic_momentum.aux) (./sections/example_equations/energy_springs.aux) (./sections/example_equations/impulses.aux) (./sections/example_equations/inelastic_momentum.aux))
+)) (./big_book.aux (./sections/equations.aux) (./sections/units.aux) (./sections/collisions.aux) (./sections/energysprings.aux) (./sections/impulses.aux) (./sections/2dmomentum.aux) (./sections/example_equations/2dmomentum.aux) (./sections/example_equations/inelasticmomentum.aux) (./sections/example_equations/elasticmomentum.aux) (./sections/example_equations/energysprings.aux) (./sections/example_equations/energymomentum.aux) (./sections/example_equations/impulses.aux) (./sections/example_equations/impulses.aux))
 \openout1 = `big_book.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -510,18 +510,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
  []
 
 )
-\openout2 = `sections/energy_springs.aux'.
+\openout2 = `sections/energysprings.aux'.
 
- (./sections/energy_springs.tex [2])
+ (./sections/energysprings.tex [2])
 \openout2 = `sections/impulses.aux'.
 
  (./sections/impulses.tex)
-\openout2 = `sections/2d_momentum.aux'.
+\openout2 = `sections/2dmomentum.aux'.
 
- (./sections/2d_momentum.tex)
-\openout2 = `sections/example_equations/2d_momentum.aux'.
+ (./sections/2dmomentum.tex)
+\openout2 = `sections/example_equations/2dmomentum.aux'.
 
- (./sections/example_equations/2d_momentum.tex [3]
+ (./sections/example_equations/2dmomentum.tex [3]
 <./images/2d_momentum_graph.png, id=27, 373.395pt x 460.72125pt>
 File: ./images/2d_momentum_graph.png Graphic file (type png)
 <use ./images/2d_momentum_graph.png>
@@ -563,10 +563,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
  []
 
 )
-\openout2 = `sections/example_equations/elastic_momentum.aux'.
+\openout2 = `sections/example_equations/inelasticmomentum.aux'.
 
- (./sections/example_equations/elastic_momentum.tex [4 <./images/2d_momentum_graph.png>]
-<./images/elastic_collision.png, id=38, 394.47375pt x 374.39874pt>
+ (./sections/example_equations/inelasticmomentum.tex [4 <./images/2d_momentum_graph.png>]
+<./images/child_rope.png, id=38, 365.365pt x 481.8pt>
+File: ./images/child_rope.png Graphic file (type png)
+<use ./images/child_rope.png>
+Package pdftex.def Info: ./images/child_rope.png  used on input line 6.
+(pdftex.def)             Requested size: 120.57082pt x 158.99448pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--18
+
+ []
+
+
+Overfull \hbox (30.67496pt too wide) in paragraph at lines 4--18
+[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
+
+ []
+
+)
+\openout2 = `sections/example_equations/elasticmomentum.aux'.
+
+ (./sections/example_equations/elasticmomentum.tex [5 <./images/child_rope.png>]
+<./images/elastic_collision.png, id=44, 394.47375pt x 374.39874pt>
 File: ./images/elastic_collision.png Graphic file (type png)
 <use ./images/elastic_collision.png>
 Package pdftex.def Info: ./images/elastic_collision.png  used on input line 6.
@@ -622,10 +666,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
  []
 
 )
-\openout2 = `sections/example_equations/energy_springs.aux'.
+\openout2 = `sections/example_equations/energysprings.aux'.
 
- (./sections/example_equations/energy_springs.tex [5 <./images/elastic_collision.png>]
-<./images/springs.png, id=43, 244.915pt x 173.64874pt>
+ (./sections/example_equations/energysprings.tex [6 <./images/elastic_collision.png>]
+<./images/springs.png, id=49, 244.915pt x 173.64874pt>
 File: ./images/springs.png Graphic file (type png)
 <use ./images/springs.png>
 Package pdftex.def Info: ./images/springs.png  used on input line 7.
@@ -681,10 +725,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--32
  []
 
 )
+\openout2 = `sections/example_equations/energymomentum.aux'.
+
+ (./sections/example_equations/energymomentum.tex [7 <./images/springs.png>]
+<./images/boulder.png, id=55, 848.16875pt x 636.3775pt>
+File: ./images/boulder.png Graphic file (type png)
+<use ./images/boulder.png>
+Package pdftex.def Info: ./images/boulder.png  used on input line 12.
+(pdftex.def)             Requested size: 169.63074pt x 127.27324pt.
+
+Overfull \hbox (30.67496pt too wide) in paragraph at lines 11--23
+$[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+ []
+
+)
 \openout2 = `sections/example_equations/impulses.aux'.
 
- (./sections/example_equations/impulses.tex [6 <./images/springs.png>]
-<./images/car_crash.png, id=49, 823.075pt x 420.57124pt>
+ (./sections/example_equations/impulses.tex [8 <./images/boulder.png>]
+<./images/car_crash.png, id=59, 823.075pt x 420.57124pt>
 File: ./images/car_crash.png Graphic file (type png)
 <use ./images/car_crash.png>
 Package pdftex.def Info: ./images/car_crash.png  used on input line 5.
@@ -720,22 +808,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--26
  []
 
 )
-\openout2 = `sections/example_equations/inelastic_momentum.aux'.
+\openout2 = `sections/example_equations/impulses.aux'.
 
- (./sections/example_equations/inelastic_momentum.tex [7 <./images/car_crash.png>]
-<./images/child_rope.png, id=54, 365.365pt x 481.8pt>
-File: ./images/child_rope.png Graphic file (type png)
-<use ./images/child_rope.png>
-Package pdftex.def Info: ./images/child_rope.png  used on input line 6.
-(pdftex.def)             Requested size: 120.57082pt x 158.99448pt.
+ (./sections/example_equations/impulses.tex [9 <./images/car_crash.png>]
+File: ./images/car_crash.png Graphic file (type png)
+<use ./images/car_crash.png>
+Package pdftex.def Info: ./images/car_crash.png  used on input line 5.
+(pdftex.def)             Requested size: 164.61208pt x 84.11275pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--18
+Overfull \hbox (30.67496pt too wide) in paragraph at lines 4--15
+$[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
 
-Overfull \hbox (30.67496pt too wide) in paragraph at lines 4--18
-[]$ $[]$ 
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
  []
 
 
@@ -744,39 +836,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--21
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--24
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
-
- []
-
-) (./big_book.aux (./sections/equations.aux) (./sections/units.aux) (./sections/collisions.aux) (./sections/energy_springs.aux) (./sections/impulses.aux) (./sections/2d_momentum.aux) (./sections/example_equations/2d_momentum.aux) (./sections/example_equations/elastic_momentum.aux) (./sections/example_equations/energy_springs.aux) (./sections/example_equations/impulses.aux) (./sections/example_equations/inelastic_momentum.aux)) ) 
+) (./big_book.aux (./sections/equations.aux) (./sections/units.aux) (./sections/collisions.aux) (./sections/energysprings.aux) (./sections/impulses.aux) (./sections/2dmomentum.aux) (./sections/example_equations/2dmomentum.aux) (./sections/example_equations/inelasticmomentum.aux) (./sections/example_equations/elasticmomentum.aux) (./sections/example_equations/energysprings.aux) (./sections/example_equations/energymomentum.aux) (./sections/example_equations/impulses.aux) (./sections/example_equations/impulses.aux)) ) 
 Here is how much of TeX's memory you used:
- 18422 strings out of 478268
- 417187 string characters out of 5846346
- 666509 words of memory out of 5000000
- 36136 multiletter control sequences out of 15000+600000
+ 18463 strings out of 478268
+ 419053 string characters out of 5846346
+ 666780 words of memory out of 5000000
+ 36163 multiletter control sequences out of 15000+600000
  477816 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,12n,120p,472b,379s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,12n,120p,472b,405s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on big_book.pdf (7 pages, 568027 bytes).
+Output written on big_book.pdf (9 pages, 636062 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
+ 139 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
