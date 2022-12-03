@@ -1,4 +1,3 @@
-# Learning LaTeX
 ![LaTeX_logo](https://user-images.githubusercontent.com/75189508/205197994-f6a28162-6a7c-4431-8ed4-dded53703d8a.svg)
 My Progression Towards Learning LaTeX
 
