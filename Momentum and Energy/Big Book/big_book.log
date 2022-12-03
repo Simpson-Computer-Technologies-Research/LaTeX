@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.30)  3 DEC 2022 08:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.30)  3 DEC 2022 09:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -439,7 +439,7 @@ Local configuration file tkz-euclide.cfg found and used
 2022/02/25 4.051b tkz-obj-eu-show.tex
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-triangles.tex
 2022/02/25 4.051b tkz-obj-eu-triangles.tex
-)) (./big_book.aux)
+)) (./big_book.aux (./sections/equations.aux) (./sections/units.aux) (./sections/collisions.aux) (./sections/energy_springs.aux) (./sections/impulses.aux) (./sections/2d_momentum.aux) (./sections/example_equations/2d_momentum.aux) (./sections/example_equations/elastic_momentum.aux) (./sections/example_equations/energy_springs.aux) (./sections/example_equations/impulses.aux) (./sections/example_equations/inelastic_momentum.aux))
 \openout1 = `big_book.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -493,298 +493,290 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+\openout2 = `sections/equations.aux'.
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
+ (./sections/equations.tex [1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+\openout2 = `sections/units.aux'.
+
+ (./sections/units.tex)
+\openout2 = `sections/collisions.aux'.
+
+ (./sections/collisions.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
-[2] [3]
+)
+\openout2 = `sections/energy_springs.aux'.
+
+ (./sections/energy_springs.tex [2])
+\openout2 = `sections/impulses.aux'.
+
+ (./sections/impulses.tex)
+\openout2 = `sections/2d_momentum.aux'.
+
+ (./sections/2d_momentum.tex)
+\openout2 = `sections/example_equations/2d_momentum.aux'.
+
+ (./sections/example_equations/2d_momentum.tex [3]
 <./images/2d_momentum_graph.png, id=27, 373.395pt x 460.72125pt>
 File: ./images/2d_momentum_graph.png Graphic file (type png)
 <use ./images/2d_momentum_graph.png>
-Package pdftex.def Info: ./images/2d_momentum_graph.png  used on input line 182.
+Package pdftex.def Info: ./images/2d_momentum_graph.png  used on input line 11.
 (pdftex.def)             Requested size: 123.22072pt x 152.03848pt.
 
-Overfull \hbox (30.67496pt too wide) in paragraph at lines 181--194
+Overfull \hbox (30.67496pt too wide) in paragraph at lines 10--23
 $[]$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--197
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--197
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-[4 <./images/2d_momentum_graph.png>]
-<./images/child_rope.png, id=38, 365.365pt x 481.8pt>
-File: ./images/child_rope.png Graphic file (type png)
-<use ./images/child_rope.png>
-Package pdftex.def Info: ./images/child_rope.png  used on input line 216.
-(pdftex.def)             Requested size: 120.57082pt x 158.99448pt.
+)
+\openout2 = `sections/example_equations/elastic_momentum.aux'.
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--228
-
- []
-
-
-Overfull \hbox (30.67496pt too wide) in paragraph at lines 214--228
-[]$ $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 229--231
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 229--231
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 232--234
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--239
-
- []
-
-[5 <./images/child_rope.png>]
-<./images/elastic_collision.png, id=44, 394.47375pt x 374.39874pt>
+ (./sections/example_equations/elastic_momentum.tex [4 <./images/2d_momentum_graph.png>]
+<./images/elastic_collision.png, id=38, 394.47375pt x 374.39874pt>
 File: ./images/elastic_collision.png Graphic file (type png)
 <use ./images/elastic_collision.png>
-Package pdftex.def Info: ./images/elastic_collision.png  used on input line 246.
+Package pdftex.def Info: ./images/elastic_collision.png  used on input line 6.
 (pdftex.def)             Requested size: 130.17673pt x 123.55196pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--258
+Underfull \hbox (badness 10000) in paragraph at lines 4--18
 
  []
 
 
-Overfull \hbox (30.67496pt too wide) in paragraph at lines 244--258
+Overfull \hbox (30.67496pt too wide) in paragraph at lines 4--18
 []$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--261
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--261
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--266
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--266
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--266
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--272
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--272
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
-[6 <./images/elastic_collision.png>]
-<./images/springs.png, id=49, 244.915pt x 173.64874pt>
+)
+\openout2 = `sections/example_equations/energy_springs.aux'.
+
+ (./sections/example_equations/energy_springs.tex [5 <./images/elastic_collision.png>]
+<./images/springs.png, id=43, 244.915pt x 173.64874pt>
 File: ./images/springs.png Graphic file (type png)
 <use ./images/springs.png>
-Package pdftex.def Info: ./images/springs.png  used on input line 280.
+Package pdftex.def Info: ./images/springs.png  used on input line 7.
 (pdftex.def)             Requested size: 80.82219pt x 57.30426pt.
 
-Overfull \hbox (30.67496pt too wide) in paragraph at lines 279--290
+Overfull \hbox (30.67496pt too wide) in paragraph at lines 6--17
 $[]$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--293
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--293
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--298
+Underfull \hbox (badness 10000) in paragraph at lines 21--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--298
+Underfull \hbox (badness 10000) in paragraph at lines 21--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--298
+Underfull \hbox (badness 10000) in paragraph at lines 21--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--305
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--305
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--305
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
 
  []
 
-[7 <./images/springs.png>]
-<./images/boulder.png, id=55, 848.16875pt x 636.3775pt>
-File: ./images/boulder.png Graphic file (type png)
-<use ./images/boulder.png>
-Package pdftex.def Info: ./images/boulder.png  used on input line 319.
-(pdftex.def)             Requested size: 169.63074pt x 127.27324pt.
+)
+\openout2 = `sections/example_equations/impulses.aux'.
 
-Overfull \hbox (30.67496pt too wide) in paragraph at lines 318--330
-$[]$ $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 331--333
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 331--333
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 334--337
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 334--337
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 340--342
-
- []
-
-[8 <./images/boulder.png>]
-<./images/car_crash.png, id=59, 823.075pt x 420.57124pt>
+ (./sections/example_equations/impulses.tex [6 <./images/springs.png>]
+<./images/car_crash.png, id=49, 823.075pt x 420.57124pt>
 File: ./images/car_crash.png Graphic file (type png)
 <use ./images/car_crash.png>
-Package pdftex.def Info: ./images/car_crash.png  used on input line 349.
+Package pdftex.def Info: ./images/car_crash.png  used on input line 5.
 (pdftex.def)             Requested size: 164.61208pt x 84.11275pt.
 
-Overfull \hbox (30.67496pt too wide) in paragraph at lines 348--359
+Overfull \hbox (30.67496pt too wide) in paragraph at lines 4--15
 $[]$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--362
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--362
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--365
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--370
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
  []
 
-[9 <./images/car_crash.png>] (./big_book.aux) ) 
+)
+\openout2 = `sections/example_equations/inelastic_momentum.aux'.
+
+ (./sections/example_equations/inelastic_momentum.tex [7 <./images/car_crash.png>]
+<./images/child_rope.png, id=54, 365.365pt x 481.8pt>
+File: ./images/child_rope.png Graphic file (type png)
+<use ./images/child_rope.png>
+Package pdftex.def Info: ./images/child_rope.png  used on input line 6.
+(pdftex.def)             Requested size: 120.57082pt x 158.99448pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--18
+
+ []
+
+
+Overfull \hbox (30.67496pt too wide) in paragraph at lines 4--18
+[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
+
+ []
+
+) (./big_book.aux (./sections/equations.aux) (./sections/units.aux) (./sections/collisions.aux) (./sections/energy_springs.aux) (./sections/impulses.aux) (./sections/2d_momentum.aux) (./sections/example_equations/2d_momentum.aux) (./sections/example_equations/elastic_momentum.aux) (./sections/example_equations/energy_springs.aux) (./sections/example_equations/impulses.aux) (./sections/example_equations/inelastic_momentum.aux)) ) 
 Here is how much of TeX's memory you used:
- 18122 strings out of 478268
- 403172 string characters out of 5846346
- 663539 words of memory out of 5000000
- 35911 multiletter control sequences out of 15000+600000
+ 18422 strings out of 478268
+ 417187 string characters out of 5846346
+ 666509 words of memory out of 5000000
+ 36136 multiletter control sequences out of 15000+600000
  477816 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,12n,120p,472b,278s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,12n,120p,472b,379s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on big_book.pdf (9 pages, 636062 bytes).
+Output written on big_book.pdf (7 pages, 568029 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 131 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
