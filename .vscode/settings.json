@@ -1,3 +1,4 @@
 {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "latex-workshop.latex.outDir": "%DIR%/build"
 }
