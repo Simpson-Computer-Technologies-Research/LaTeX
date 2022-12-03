@@ -3,13 +3,12 @@
 My Progression Towards Learning LaTeX
 
 # Progression Announcements
-- I'M STILL LEARNING LATEX! This repository is solely for me and any others attempting to learn LaTeX to keep track of my progress / progress alongside me.
+- I'M STILL LEARNING! This repository is solely for me and any others attempting to learn LaTeX to keep track of my progress / progress alongside me.
 
-- I'm currently learning how to do diagrams. I Switched from Tikz to using images and https://www.geogebra.org/calculator
+- Currently learning how to do diagrams. I switched from the Tikz package to using images and https://www.geogebra.org/calculator
 
-# Previews
-![Capture2](https://user-images.githubusercontent.com/75189508/205397807-396fb43e-3247-47e4-9aac-40466606c282.JPG)
-![Capture](https://user-images.githubusercontent.com/75189508/205397804-a0577804-8543-4842-82cb-14e0b54908d9.JPG)
+# Progression Preview
+![Capture](https://user-images.githubusercontent.com/75189508/205423459-2aab041f-4ad4-4d59-83b7-8e9be640b6a0.png)
 
 # License
 MIT License
