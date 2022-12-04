@@ -1,6 +1,6 @@
 INFO:  latexindent.pl version 3.19, 2022-10-30, a script to indent .tex files
        latexindent.pl lives here: /usr/local/Cellar/latexindent/3.19/libexec/bin/
-       Sun Dec  4 08:58:50 2022
+       Sun Dec  4 09:00:50 2022
        Filename: /Users/tristan/Desktop/LaTeX/Physics Momentum + Energy/Big Book/sections/examples/__latexindent_temp_energymomentum.tex
 INFO:  Processing switches:
        -y|--yaml: YAML settings specified via command line
