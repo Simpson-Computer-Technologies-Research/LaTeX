@@ -5,7 +5,7 @@
         ],
         "body": [
             "\\documentclass{article}",
-            "\\title{${1:Physics Lab}}",
+            "\\title{${1:Physics}}",
             "\\author{${2:Tristan Simpson}}",
             "\\begin{document}",
             "\\maketitle",
