@@ -53,8 +53,8 @@ r.add_newline(1)
 
 # // Calculations
 r.add_header(r'Caclulations: Solve for $d$')
-r.add_text(r"Before solving for $\lambda$, we must find $d$ (the width of the slit). To do this we used a projector and the formula below.\newline\newline")
-r.add_eq(r"\therefore d = \frac{(1mm)(slit width in projector)}{(mm in projector)} = \frac{(1mm)(3.2mm)}{(6.1mm)} \approx 5.24\times 10^{-4}m")
+r.add_text(r"Before solving for $\lambda$, we must find $d$ (the width of the slit). To do this we used a projector (magnifier) and the formula below.\newline\newline")
+r.add_eq(r"\therefore d = \frac{(1mm)(slit width on projection)}{(1mm on projection)} = \frac{(1mm)(3.2mm)}{(6.1mm)} \approx 5.24\times 10^{-4}m")
 r.add_newline(1)
 
 # // Calculations 
