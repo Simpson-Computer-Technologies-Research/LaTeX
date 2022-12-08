@@ -24,7 +24,7 @@ r.add_text(content=r"""
 r.add_header("Materials")
 r.add_list(type="itemize", items=[
     r.raw_text(r"\textbf{One} Slit"),
-    r.raw_text(r"\textbf{One} Line of measuring tape"),
+    r.raw_text(r"\textbf{One} Line of Measuring Tape"),
     r.raw_text(r"\textbf{One} Red Laser"),
     r.raw_text(r"\textbf{One} Projector"),
     r.raw_text(r"\textbf{Two} Rulers"),
@@ -35,16 +35,16 @@ r.add_list(type="itemize", items=[
 r.add_header("Procedure")
 r.add_list(type="enumerate", items=[
     r.raw_text(r"The sheet of paper was taped to the black-board."),
-    r.raw_text(r"The laser was held infront of the slit."),
-    r.raw_text(r"Using a pencil, the blocks made by the laser and slit were marked on the taped piece of paper."),
-    r.raw_text(r"The distance between two of the blocks made by the slits was measured. ($\Delta x$)"),
+    r.raw_text(r"The laser was positioned infront of the slit, both facing the piece of paper on the black-board."),
+    r.raw_text(r"Using a pencil, the blocks made by the laser and slit were marked on the piece of paper."),
+    r.raw_text(r"The distance between the middles of two of the blocks made by the slits was measured. ($\Delta x$)"),
     r.raw_text(r"The distance from the slit to the black-board was measured. ($L$)"),
-    r.raw_text(r"The width of the slit was measured using the projector, two rulers, and the slit itself. ($d$)")
+    r.raw_text(r"The width of the slits double line was measured using the projector, two rulers, and the slit itself. ($d$)")
 ])
 
 # // Observations
 r.add_header("Observations")
-r.add_text(r"The observations below exhibit the distance from the split to the black board ($L$) and the distance from the middle of two blocks projected by the laser travelling through our provided slit. ($\Delta x$)")
+r.add_text(r"The observations below exhibit the distance from the split to the black board ($L$) and the distance from the middles of two blocks projected by the laser travelling through our provided slit. ($\Delta x$)")
 r.add_list(items=[
     r.raw_text(r"$L$ $\approx$ $73cm$ $\approx$ $7.3$ $\times 10^{-1}$ $m$"),
     r.raw_text(r"$\Delta x$ $\approx$ $0.7cm$ $\approx$ $7.0\times 10^{-3}$ $m$")
@@ -59,7 +59,7 @@ r.add_newline(1)
 
 # // Calculations 
 r.add_header(r'Calculations: Solve for $\lambda$')
-r.add_text(r"After finding $d$ we can solve for $\lambda$ using the standard formula shown below. The result is meant to be near the size of a $nanometer$ $(n \times 10^{-1}m)$, thus our own calculations will produce a high error percentage.\newline\newline")
+r.add_text(r"After finding $d$ we can solve for $\lambda$ using the standard formula shown below. The result is meant to be near the size of a $nanometer$ $(n \times 10^{-9}m)$, thus our own calculations will produce a high error percentage.\newline\newline")
 r.add_eq(r"\therefore \lambda = \frac{\Delta xd}{L} = \frac{(7.0\times 10^{-3})(5.24\times 10^{-4})}{(7.3\times 10^{-1})} \approx 5.02 \times 10^{-6}m")
 r.add_newline(1)
 
