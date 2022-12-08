@@ -59,7 +59,7 @@ r.add_newline(1)
 
 # // Calculations 
 r.add_header(r'Calculations: Solve for $\lambda$')
-r.add_text(r"After finding $d$ we can solve for $\lambda$ using the standard formula shown below. The result is meant to be near the size of a $nanometer$ $(n \times 10^{-9}m)$, thus our own calculations will produce a high error percentage.\newline\newline")
+r.add_text(r"After finding $d$ we can solve for $\lambda$ using the formula shown below and substitute in our already found variables and givens into the equation.\newline\newline")
 r.add_eq(r"\therefore \lambda = \frac{\Delta xd}{L} = \frac{(7.0\times 10^{-3})(5.24\times 10^{-4})}{(7.3\times 10^{-1})} \approx 5.02 \times 10^{-6}m")
 r.add_newline(1)
 
