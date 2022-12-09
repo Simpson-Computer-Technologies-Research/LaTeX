@@ -17,7 +17,7 @@ r.new(
 # // Purpose
 r.add_header("Purpose")
 r.add_text(content=r"""
-    The purpose of this lab was to measure the wave length ($\lambda$) of a projected laser travelling through a slit then calculate the error percentage produced by our result.
+    The purpose of this lab was to measure the wave length ($\lambda$) of a laser travelling through a slit, then calculate the error percentage produced by our result.
 """)
 
 # // Materials
@@ -44,7 +44,7 @@ r.add_list(type="enumerate", items=[
 
 # // Observations
 r.add_header("Observations")
-r.add_text(r"The observations below exhibit the distance from the split to the black board ($L$) and the distance from the middles of two blocks projected by the laser travelling through our provided slit. ($\Delta x$)")
+r.add_text(r"During our experiment, our group made the following observations. Below exhibits the distance from the slit to the black-board ($L$) and the distance from the middles of two blocks projected by the laser travelling through our slit. ($\Delta x$)")
 r.add_list(items=[
     r.text(r"$L$ $\approx$ $73cm$ $\approx$ $7.3$ $\times 10^{-1}$ $m$"),
     r.text(r"$\Delta x$ $\approx$ $0.7cm$ $\approx$ $7.0\times 10^{-3}$ $m$")
@@ -58,39 +58,39 @@ r.add_newline(1)
 
 # // Calculations 
 r.add_header(r'Calculations: Solve for $\lambda$')
-r.add_text(r"After finding $d$ we can solve for $\lambda$ using the formula shown below and substitute in our already found variables and givens into the equation.\newline\newline")
+r.add_text(r"After finding $d$ we can solve for $\lambda$ by substituting our previous variables into the following equation.\newline\newline")
 r.add_eq(r"\therefore \lambda = \frac{\Delta xd}{L} = \frac{(7.0\times 10^{-3})(5.24\times 10^{-4})}{(7.3\times 10^{-1})} \approx 5.02 \times 10^{-6}m")
 r.add_newline(1)
 
 # // Calculations
 r.add_header(r"Calculations: Error Percentage")
-r.add_text(r"After solving for an experimental result, we use the standard formula to calculate the error percentage.")
+r.add_text(r"After solving for our experimental result, we use the error percentage formula to find how accurate our results really were.")
 r.add_eq(r"\therefore Error \% = \left(\frac{Experimental - Theoretical}{Theoretical}\right) \times 100")
 r.add_eq(r"\therefore Error \% = \left(\frac{(5.02 \times 10^{-6}) - (6.53 \times 10^{-9})}{(6.53 \times 10^{-9})}\right) \times 100 \approx 7.6\times 10^5\;\%")
 
 # // Source of Errors
 r.add_header("Sources of Errors")
 r.add_list(type="enumerate", items=[
-    r.text(r"The blocks produced by the laser travelling through the slit were too close together. This made measuring the distances far harder and far more inaccurate."),
-    r.text(r"Measuring from the projector can produce inaccurate results. Because of how large and pixelated the projection is, achieving accurate measurements can be difficult."),
-    r.text(r"The laser was too far away / close to the the slit.")
+    r.text(r"The blocks projected by the laser travelling through the slit were too close together. This made measuring the distances far harder and far more inaccurate."),
+    r.text(r"Measuring from the projector made achieving accurate results far more difficult due to how large and pixelated the projection is."),
+    r.text(r"The laser was too far away / too close to the the slit.")
 ])
 
 # // Solutions to Errors
 r.add_header("Solutions to Errors")
 r.add_list(type="enumerate", items=[
-    r.text(r"Move to a larger space so we can station the items accordingly."),
-    r.text(r"Use a higher resolution projector or have multiple group members measure values then use the average of the results."),
+    r.text(r"Move to a larger space so we can station the materials accordingly."),
+    r.text(r"Use a higher resolution projector or have each of our group members measure values then calculate the average of the results."),
     r.text(r"Measure an appropriate distance for the laser away from the slit.")
 ])
 
 # // Conclusion
 r.add_header("Conclusion")
-r.add_text(r"Therefore, by the conclusion of this lab, it was determined that the wave length ($\lambda$) of a laser travelling through a slit was approximately $5.02\;\times 10^{-6}m$ though because of the experimental errors noted above, this result had produced a high error percentage of approximately $7.6\times 10^5\;\%$")
+r.add_text(r"Therefore, upon the conclusion of this lab it was determined that the wave length ($\lambda$) of a laser travelling through a slit was approximately $5.02\;\times 10^{-6}m$ though because of the experimental errors documented above, this result produced a high error percentage of approximately $7.6\times 10^5\;\%$")
 
 # // Experiment Images
 r.add_header("Pictures")
-r.add_text(r"The image below is the result of the laser travelling through our provided slit. As you can see, the blocks created by the laser and slit were very close together which made achieving accurate measurements far more difficult.\newline\newline")
+r.add_text(r"The image below is the result of the laser travelling through our provided slit. The blocks being projected by the laser and slit were very close together and fuzzy. This was one of the prime sources of errors that was documented above.\newline\newline")
 r.add_image(path="/images/laser_split.png", scale=0.15)
 
 
