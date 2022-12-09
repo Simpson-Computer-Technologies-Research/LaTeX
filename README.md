@@ -2,11 +2,10 @@
 ![LaTeX_logo](https://user-images.githubusercontent.com/75189508/205197994-f6a28162-6a7c-4431-8ed4-dded53703d8a.svg)
 
 # About
-- I'M STILL LEARNING! This repository is solely for me and any others attempting to learn LaTeX to keep track of my progress / progress alongside me.
+- Finished learning the basics of LaTeX. As of now i'm using it for my current physics and math courses.
+- I was bored and made a library in python for building LaTeX Documents. https://github.com/realTristan/ratex
 
-- Currently learning how to do diagrams. I switched from the Tikz package to using images and https://www.geogebra.org/calculator
-
-# Progression Preview
+# Preview
 ![Capture](https://user-images.githubusercontent.com/75189508/205423459-2aab041f-4ad4-4d59-83b7-8e9be640b6a0.png)
 
 # License
