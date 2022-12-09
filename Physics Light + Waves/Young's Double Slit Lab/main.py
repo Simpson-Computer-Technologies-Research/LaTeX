@@ -37,9 +37,9 @@ r.add_list(type="enumerate", items=[
     r.text(r"The sheet of paper was taped to the black-board."),
     r.text(r"The laser was positioned infront of the slit, both facing the piece of paper on the black-board."),
     r.text(r"Using a pencil, the blocks made by the laser and slit were marked on the piece of paper."),
-    r.text(r"The distance between the middles of two of the blocks made by the slits was measured. ($\Delta x$)"),
+    r.text(r"The distance between the middles of two blocks made by the laser and slit was measured. ($\Delta x$)"),
     r.text(r"The distance from the slit to the black-board was measured. ($L$)"),
-    r.text(r"The width of the slits double line was measured using the projector, two rulers, and the slit itself. ($d$)")
+    r.text(r"The width of the slits' double-line was measured using the projector, two rulers, and the slit itself. ($d$)")
 ])
 
 # // Observations
