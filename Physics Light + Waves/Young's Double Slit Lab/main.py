@@ -49,7 +49,6 @@ r.add_list(items=[
     r.raw_text(r"$L$ $\approx$ $73cm$ $\approx$ $7.3$ $\times 10^{-1}$ $m$"),
     r.raw_text(r"$\Delta x$ $\approx$ $0.7cm$ $\approx$ $7.0\times 10^{-3}$ $m$")
 ])
-r.add_newline(1)
 
 # // Calculations
 r.add_header(r'Caclulations: Solve for $d$')
