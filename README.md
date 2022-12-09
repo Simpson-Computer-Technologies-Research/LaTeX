@@ -1,4 +1,4 @@
-# LaTeX
+# LaTeX ![Stars](https://img.shields.io/github/stars/Simpson-Computer-Technologies-Research/LaTeX?color=brightgreen) ![Watchers](https://img.shields.io/github/watchers/Simpson-Computer-Technologies-Research/LaTeX?label=Watchers)
 ![LaTeX_logo](https://user-images.githubusercontent.com/75189508/205197994-f6a28162-6a7c-4431-8ed4-dded53703d8a.svg)
 
 # About
