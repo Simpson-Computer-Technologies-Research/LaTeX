@@ -46,7 +46,7 @@ r.add_list(type="enumerate", items=[
 r.add_header("Observations")
 r.add_text(r"During our experiment, our group made the following observations. Below exhibits the distance from the slit to the black-board ($L$) and the distance from the middles of two blocks projected by the laser travelling through our slit. ($\Delta x$)")
 r.add_list(items=[
-    r.text(r"$L$ $\approx$ $73cm$ $\approx$ $7.3$ $\times 10^{-1}$ $m$"),
+    r.text(r"$L$ $\approx$ $73cm$ $\approx$ $7.3m$"),
     r.text(r"$\Delta x$ $\approx$ $0.7cm$ $\approx$ $7.0\times 10^{-3}$ $m$")
 ])
 
@@ -59,14 +59,14 @@ r.add_newline(1)
 # // Calculations 
 r.add_header(r'Calculations: Solve for $\lambda$')
 r.add_text(r"After finding $d$ we can solve for $\lambda$ by substituting our previous variables into the following equation.\newline\newline")
-r.add_eq(r"\therefore \lambda = \frac{\Delta xd}{L} = \frac{(7.0\times 10^{-3})(5.24\times 10^{-4})}{(7.3\times 10^{-1})} \approx 5.02 \times 10^{-6}m")
+r.add_eq(r"\therefore \lambda = \frac{\Delta xd}{L} = \frac{(7.0\times 10^{-3})(5.24\times 10^{-4})}{(7.3)} \approx 5.02 \times 10^{-7}m")
 r.add_newline(1)
 
 # // Calculations
 r.add_header(r"Calculations: Error Percentage")
 r.add_text(r"After solving for our experimental result, we use the error percentage formula to find how accurate our results really were.")
 r.add_eq(r"\therefore Error \% = \left(\frac{Experimental - Theoretical}{Theoretical}\right) \times 100")
-r.add_eq(r"\therefore Error \% = \left(\frac{(5.02 \times 10^{-6}) - (6.53 \times 10^{-9})}{(6.53 \times 10^{-9})}\right) \times 100 \approx 7.6\times 10^5\;\%")
+r.add_eq(r"\therefore Error \% = \left(\frac{(5.02 \times 10^{-7}) - (6.53 \times 10^{-9})}{(6.53 \times 10^{-9})}\right) \times 100 \approx >\;100\;\%")
 
 # // Source of Errors
 r.add_header("Sources of Errors")
