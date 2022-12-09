@@ -23,31 +23,31 @@ r.add_text(content=r"""
 # // Materials
 r.add_header("Materials")
 r.add_list(type="itemize", items=[
-    r.raw_text(r"\textbf{One} Slit"),
-    r.raw_text(r"\textbf{One} Line of Measuring Tape"),
-    r.raw_text(r"\textbf{One} Red Laser"),
-    r.raw_text(r"\textbf{One} Projector"),
-    r.raw_text(r"\textbf{Two} Rulers"),
-    r.raw_text(r"\textbf{One} Piece of Paper")
+    r.text(r"\textbf{One} Slit"),
+    r.text(r"\textbf{One} Line of Measuring Tape"),
+    r.text(r"\textbf{One} Red Laser"),
+    r.text(r"\textbf{One} Projector"),
+    r.text(r"\textbf{Two} Rulers"),
+    r.text(r"\textbf{One} Piece of Paper")
 ])
 
 # // Procedure
 r.add_header("Procedure")
 r.add_list(type="enumerate", items=[
-    r.raw_text(r"The sheet of paper was taped to the black-board."),
-    r.raw_text(r"The laser was positioned infront of the slit, both facing the piece of paper on the black-board."),
-    r.raw_text(r"Using a pencil, the blocks made by the laser and slit were marked on the piece of paper."),
-    r.raw_text(r"The distance between the middles of two of the blocks made by the slits was measured. ($\Delta x$)"),
-    r.raw_text(r"The distance from the slit to the black-board was measured. ($L$)"),
-    r.raw_text(r"The width of the slits double line was measured using the projector, two rulers, and the slit itself. ($d$)")
+    r.text(r"The sheet of paper was taped to the black-board."),
+    r.text(r"The laser was positioned infront of the slit, both facing the piece of paper on the black-board."),
+    r.text(r"Using a pencil, the blocks made by the laser and slit were marked on the piece of paper."),
+    r.text(r"The distance between the middles of two of the blocks made by the slits was measured. ($\Delta x$)"),
+    r.text(r"The distance from the slit to the black-board was measured. ($L$)"),
+    r.text(r"The width of the slits double line was measured using the projector, two rulers, and the slit itself. ($d$)")
 ])
 
 # // Observations
 r.add_header("Observations")
 r.add_text(r"The observations below exhibit the distance from the split to the black board ($L$) and the distance from the middles of two blocks projected by the laser travelling through our provided slit. ($\Delta x$)")
 r.add_list(items=[
-    r.raw_text(r"$L$ $\approx$ $73cm$ $\approx$ $7.3$ $\times 10^{-1}$ $m$"),
-    r.raw_text(r"$\Delta x$ $\approx$ $0.7cm$ $\approx$ $7.0\times 10^{-3}$ $m$")
+    r.text(r"$L$ $\approx$ $73cm$ $\approx$ $7.3$ $\times 10^{-1}$ $m$"),
+    r.text(r"$\Delta x$ $\approx$ $0.7cm$ $\approx$ $7.0\times 10^{-3}$ $m$")
 ])
 
 # // Calculations
@@ -71,17 +71,17 @@ r.add_eq(r"\therefore Error \% = \left(\frac{(5.02 \times 10^{-6}) - (6.53 \time
 # // Source of Errors
 r.add_header("Sources of Errors")
 r.add_list(type="enumerate", items=[
-    r.raw_text(r"The blocks produced by the laser travelling through the slit were too close together. This made measuring the distances far harder and far more inaccurate."),
-    r.raw_text(r"Measuring from the projector can produce inaccurate results. Because of how large and pixelated the projection is, achieving accurate measurements can be difficult."),
-    r.raw_text(r"The laser was too far away / close to the the slit.")
+    r.text(r"The blocks produced by the laser travelling through the slit were too close together. This made measuring the distances far harder and far more inaccurate."),
+    r.text(r"Measuring from the projector can produce inaccurate results. Because of how large and pixelated the projection is, achieving accurate measurements can be difficult."),
+    r.text(r"The laser was too far away / close to the the slit.")
 ])
 
 # // Solutions to Errors
 r.add_header("Solutions to Errors")
 r.add_list(type="enumerate", items=[
-    r.raw_text(r"Move to a larger space so we can station the items accordingly."),
-    r.raw_text(r"Use a higher resolution projector or have multiple group members measure values then use the average of the results."),
-    r.raw_text(r"Measure an appropriate distance for the laser away from the slit.")
+    r.text(r"Move to a larger space so we can station the items accordingly."),
+    r.text(r"Use a higher resolution projector or have multiple group members measure values then use the average of the results."),
+    r.text(r"Measure an appropriate distance for the laser away from the slit.")
 ])
 
 # // Conclusion
