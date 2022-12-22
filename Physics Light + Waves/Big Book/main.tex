@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage[]{changepage}
+\usepackage[]{gensymb}
 \usepackage[]{realtristan}
 \title{Physics Light and Waves Summary}
 \author{Tristan Simpson}
@@ -50,27 +51,27 @@ Christiaan Huygens use of "wavelets" describes the interference pattern created 
 \noindent\textbf{Deconstructive Interference}\\
 If the path difference from one side of the slit to the other is a multiple of $\lambda$ (eg. $2\lambda$, $3\lambda$, ...), then there will be deconstructive interference.
 \begin{align*}
-    y_m = \left(\frac{m\lambda L}{w}\right)\;\; where\;\;(m\;=\;\pm 1,\;\pm 2,\;\pm 3,\;\pm 4,\;...)
+    \therefore y_m = \left(\frac{m\lambda L}{w}\right)\;\; where\;\;(m\;=\;\pm 1,\;\pm 2,\;\pm 3,\;\pm 4,\;...)
 \end{align*}\leavevmode\\\\\\\\\\
 
 \noindent\textbf{Constructive Interference}\\
-If the path difference from one side of the slit is off by half a wavelength (eg. $\lambda + \frac{1}{2}$), then there will be constructive interference.
+If the path difference from one side of the slit is off by half a wave length\\(eg. $\lambda + \frac{1}{2}$, $\lambda - \frac{1}{2}$, ...), then there will be constructive interference.
 \begin{align*}
-    y_m = \left(\frac{(m + \frac{1}{2})\lambda L}{w}\right)\;\; where\;\;(m\;=\;\pm 1,\;\pm 2,\;\pm 3,\;\pm 4,\;...)
+    \therefore y_m = \left(\frac{(m + \frac{1}{2})\lambda L}{w}\right)\;\; where\;\;(m\;=\;\pm 1,\;\pm 2,\;\pm 3,\;\pm 4,\;...)
 \end{align*}\leavevmode
 \includegraphics[scale=0.8]{images/wavelets} \\
 
 \subsection{Patterns}
 The patterns below are the result of a single slit and a double slit. The intensity's of the fringes are also shown. The highest points of the intensities are called the maximas, and the lowest points of the intensities are called the minimas.\\\\
 \begin{minipage}{0.5\textwidth}
-    \textbf{Double Slit Pattern $\Delta y = \frac{(\lambda)(d)}{L}$} \\
+    \textbf{Double Slit Pattern $\Delta x = \frac{(\lambda)(d)}{L}$} \\
     \includegraphics[scale=0.5]{images/double_slit_pattern} \\
 \end{minipage}
 \begin{minipage}{0.5\textwidth}
     \vspace{10pt}
-    \textbf{Single Slit Pattern $\Delta x = \frac{(\lambda)(d)}{L}$} \\
+    \textbf{Single Slit Pattern $\Delta y = \frac{(\lambda)(d)}{L}$} \\
 \includegraphics[scale=0.5]{images/single_slit_pattern} \\\\
-\end{minipage}
+\end{minipage}\\\\\\
 
 \subsection{Diffraction}
 When a light wave passes through a narrow slit, the wave diffracts. This diffraction is only noticeable by the human eye when $\frac{\lambda}{d} \geq 1$ \\\\
@@ -85,25 +86,26 @@ Young's Double Slit apparatus inspired the diffraction grating. The diffraction 
     \item Holding a diffraction grating to a source of \textbf{white light} easily splits the light into a rainbow of colors.
     \item The patterns created by a diffraction grating still consist of maximas (bright regions / high intensities) and minimas (dark regions / low intensities) except the maximas become very narrow and well defined.
     \item Using monochromatic light you can see very distinct bright and dark fringes.
-\end{itemize}\leavevmode\\
+\end{itemize}\leavevmode\\\\\\\\\\
 \noindent\textbf{Image of Diffraction Grating:}
 The light doesn't travel through the black lines. The light travels through the white lines. These lines act as mini slits.\\\\
 \includegraphics[scale=0.4]{images/diffraction_grating} \\
 
 \section{Polarization}
-Polarization is the splitting of waves into their components.\\\\
+Polarization is the splitting of waves into their components.
+
+\subsection{Components}
 Light waves have both vertical and horizontal components. The horizontal component is called the "electric field oscillation" and the vertical component is called the "magnetic field oscillation".\\
 \includegraphics[scale=0.25]{images/wave_components} \\
 
-\noindent As a light wave travels through a polarized lense, either the magnetic field component or the electric field component is eliminated, leaving only one of the two components.\\\\
-\includegraphics[scale=0.33]{images/polarized_lens} \\
-
-\noindent As an example, if you put together vertically polarized lense and a horizontally polarized lense in their corresponding directions, the light will not be able to move through the lense. \\\\
-If you rotate one of the lenses 90 degrees, the light will be able to pass through the lense because the polarized component is now the same as the other. \\
-
+\subsection{Lens}
+\noindent As a light wave travels through a polarized lens, either the magnetic field component or the electric field component is eliminated, leaving only one of the two components. 
+For example, if you put together vertically polarized lens and a horizontally polarized lens in their corresponding directions, the light will not be able to move through the lens.
+\\\\If you rotate one of the lens by 90$\degree$, the light will be able to pass through the lens because the polarized component is now the same as the other lens.\\\\
+\includegraphics[scale=0.5]{images/polarized_lens} \\
 
 % Double Slit Equation 1
-\section{Double Slit Equations (1)}
+\section{Double Slit Solve Example 1}
 Monochromatic light falls on two slits 0.024 mm apart. The fringes on a screen 3.00 m away are 6.7 cm apart. What is the wavelength of light?
 \subsection*{Givens}
 \begin{itemize}
@@ -118,14 +120,14 @@ To solve for the wavelength of the light, we can use the equation $\lambda = \le
 \end{align*}\leavevmode\\
 
 % Double Slit Equation 2
-\section{Double Slit Equations (2)}
+\section{Double Slit Solve Example 2}
 A parallel beam of 700 nm light falls on two small slits $6.0 \times 10^{-2}$ mm apart. How wide would a pattern of eight bright fringes be on a screen 3.0 m away?
 \subsection*{Givens}
 \begin{itemize}
     \item $d = 6.0 \times 10^{-5}\;m$
     \item $\lambda = 7.0 \times 10^{-7}\;m$
     \item $L = 3.0\;m$
-\end{itemize}\leavevmode
+\end{itemize}\leavevmode\\\\
 \subsection*{Solve}
 To solve for the width of the pattern of eight bright fringes, we must first solve for the distance between two ($\Delta x$). After solving for $\Delta x$ we can multiply it's value by eight to get the final distance.\\
 \begin{align*}
@@ -134,7 +136,7 @@ To solve for the width of the pattern of eight bright fringes, we must first sol
 \end{align*}\leavevmode\\
 
 % Single Slit Equations
-\section{Single Slit Equations (1)}
+\section{Single Slit Solve Example 1}
 How wide is the central diffraction peak on a screen 2.50 m behind a 0.0212 mm wide slit illuminated by 550 nm light?
 \subsection*{Givens}
 \begin{itemize}
@@ -146,10 +148,10 @@ How wide is the central diffraction peak on a screen 2.50 m behind a 0.0212 mm w
 To solve for the width of the central maxima we use a formula very similar to the one used in the double slit calculations: $\Delta y = \left(\frac{(\lambda)(L)}{d}\right)$ Where $\Delta y$ is the width of the central maxima.\\
 \begin{align*}
      & \therefore\;\;\Delta y = \left(\frac{(\lambda)(L)}{d}\right) = \left(\frac{(5.5 \times 10^{-7})(2.50)}{2.12 \times 10^{-5}}\right) \approx 6.5 \times 10^{-2}\;m
-\end{align*}\leavevmode\\
+\end{align*}\leavevmode\\\\\\\\\\
 
 % Single Slit Equation 2
-\section{Single Slit Equations (2)}
+\section{Single Slit Solve Example 2}
 How wide is a slit if it diffracts 690 nm light so that its central peak is 3.0 cm wide on a screen 2.80 m away?
 \subsection*{Givens}
 \begin{itemize}
