@@ -134,25 +134,28 @@ Discovered by Karl Schwarzschild, the gravitational force on light of a spinning
 \subsection{Gravity in a Black Hole vs Earth}
 The gravitational force ($F_g$) in a black hole is approximately $4.5 \times 10^{13}\; \frac{N}{kg}$ whereas the gravitational force here on earth is approximately $9.81\; \frac{N}{kg}$. This means that the gravitational force in a black hole is approximately $4.6 \times 10^{12}\; \frac{N}{kg}$ times greater than the gravitational force here on earth.
 
-\subsection{Inside a Black Hole}
+\subsection{Black Hole Time Dilation}
 \subsubsection{Mass of it's Singularity}
 A singularity is a point in space where extremely large amounts of matter are crushed into an infinitely small volume and density. Using either it's density or volume we can calulate it's mass using the equation: $m = \rho v$ where $m$ is the mass, $\rho$ is the density, and $v$ is the volume. Since $\infty$ is not quantifyable, any substitution of it in any equation produces a result of $\pm \infty$ or 0. Therefore, we can assume that the mass of the singularity is $\infty$.
 
 \subsubsection{Gravitational Time Dilation}
-By the time you've reached the singularity in a black hole, you'd be trapped in time. This is because as you come closer to an object of extremely large mass, because of it's distortion in spacetime (See \hyperref[sec:generalrelativity]{Theory of General Relativty}), time moves slower. Therefore we can assume that because the mass of a singularity is infinite, time in a singularity does not increment.
+The equation for gravitational time dilation is $\Delta t\prime = \Delta t\times\sqrt{(1-\frac{2GM}{rc^2})}$ where $\Delta t\prime$ is the time dilation, $\Delta t$ is the time in reference (i.e. an hour), $G$ is the gravitational constant, $M$ is the mass of the object, $r$ is the distance from the object to the center of the object, and $c$ is the speed of light.\\\\
+In order for this equation to be valid, the object must be in a vacuum of space, thus we must increment our Schwarzschild radius ($R_{S}$) by a small amount, otherwise our calculations will result in an imaginary number (i.e. $\sqrt{-1}$).
 
 \subsubsection{Gravitational Time Dilation of a Singularity}
-The equation for gravitational time dilation is $\Delta t\prime = \Delta t\times\sqrt{(1-\frac{2GM}{rc^2})}$ where $\Delta t\prime$ is the time dilation, $\Delta t$ is the time in reference (i.e. an hour), $G$ is the gravitational constant, $M$ is the mass of the object, $r$ is the distance to the center of the object, and $c$ is the speed of light. Since we know that the mass of the singularity is infinite, we can substitute it in for $M$ and solve for the time dilation. Like stated above $\infty$ is not quantifyable, therefore, the time dilation ($\Delta t\prime$) is infinite.
+By the time you've reached the singularity in a black hole, you'd be trapped in time. This is because as you come closer to an object of extremely large mass, because of it's distortion in spacetime (See \hyperref[sec:generalrelativity]{Theory of General Relativty}), time moves slower. Therefore we can assume that because the mass of a singularity is infinite, time in a singularity does not increment. \\\\
+Since we know that the mass of the singularity is infinite, we can substitute into the gravitational time dilation equation as $M$ and immediately solve the equation since our mass ($M = \infty$) is not quantifyable. Because of this, the time dilation ($\Delta t\prime$) is infinite.
 
-\subsubsection{Gravitational Time Dilation of a Black Hole's Event Horizon}
-To solve for the gravitational time dilation of a black hole's event horizon we can use the same formula: $\Delta t\prime = \Delta t\times\sqrt{(1-\frac{2GM}{rc^2})}$ where $\Delta t\prime$ is the time dilation, $\Delta t$ is the time in reference (i.e. an hour), $G$ is the gravitational constant, $M$ is the mass of the object, $r$ is the distance to the center of the mass, and $c$ is the speed of light. Since we know that the mass of the black hole is $1.989\times 10^{30}$ kg, we can substitute it in for $M$ and solve for the time dilation. \leavevmode
+\subsubsection{Gravitational Time Dilation of a Black Hole}
+To solve for the gravitational time dilation of a black hole we can use the same formula: $\Delta t\prime = \Delta t\times\sqrt{(1-\frac{2GM}{rc^2})}$ except we increase the Schwarzschild radius ($R_{S}$) by a small amount to accompany the requisite of being in a vacuum of space for our equation to be valid. In this case we're going to increase the radius from $2.95 \times 10^{3}\; m \to 3.00 \times 10^{3}\; m$.
 \vspace{-0.2cm}
 \begin{align*}
     \Delta t\prime & = \Delta t\times\sqrt{(1-\frac{2GM}{rc^2})}                                                                          \\
-                   & = 1\; hour \times\sqrt{(1-\frac{2(6.67 \times 10^{-11})(1.989\times 10^{30})}{(2.95 \times 10^{3})(299,792,458)^2})} \\
-                   & = \sqrt{-1.093\times10^{-3}}
+                   & = 1\; hour \times\sqrt{(1-\frac{2(6.67 \times 10^{-11})(1.989\times 10^{30})}{(3.00 \times 10^{3})(299,792,458)^2})} \\
+                   & \approx \sqrt{1.592\times10^{-2}}                                                                                    \\
+                   & \approx 1.26 \times 10^{-1} \; hours
 \end{align*}
-Therefore for every one hour on earth, $\sqrt{-1.093\times10^{-3}}$ hours pass in a black hole. For perspective, if the square root value was positive (i.e. $\sqrt{1.093\times10^{-3}}$), then by mutiplying the result by 8760 (hours in a year), we can determine that approximately 289.6 years would pass on earth for every hour in a black hole. \\\\
+Therefore for every one hour on earth, $\approx 1.26 \times 10^{-1}$ hours pass on the outards of a black hole.
 If we want to calculate the gravitational time dilation of a spacecraft orbiting the black hole, we just add the distance from the spacecraft to our Schwarzschild radius. $R_{SC + S} = R_S + R_{SC}$ where $R_{SC}$ is the spacecraft distance.
 
 \subsubsection{Relative Velocity Time Dilation}
