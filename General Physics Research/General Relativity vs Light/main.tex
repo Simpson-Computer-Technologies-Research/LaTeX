@@ -103,19 +103,20 @@ The following image is a visualization of a black hole and it's Schwarzschild ra
 The Schwarzschild radius is calculated using the equation: $R_{S} = \frac{2GM}{c^2}$ where $R_{S}$ is the Schwarzschild radius, $G$ is the gravitational constant (\hyperref[sec:constants]{$6.67 \times 10^{-11}\;\frac{Nm^2}{kg^2}$}), $M$ is the mass of the object, and $c$ is the speed of light (\hyperref[sec:constants]{$\approx 299, 792, 458\;\frac{m}{s}$}). The units of the Schwarzschild radius are meters (m).
 
 \subsection{Gravitational Force}
-The gravitational force of a black hole can be calculated using the equation: $F_g = \left(\frac{G\times M}{r^2}\right)$ where $F_g$ is the gravitational force, $G$ is Newtons gravitational constant (\hyperref[sec:constants]{$6.67 \times 10^{-11}\;\frac{Nm^2}{kg^2}$}), $M$ is the mass of the black hole, and $r$ is the radius of the black hole (found using the \hyperref[sec:schwarzschild_radius_equation]{Schwarzschild Radius Equation}). The units for gravitational force in this solution are Newtons per Kilogram ($\frac{N}{kg}$).
+The gravitational force of a black hole can be calculated using the equation: $F_g = \left(\frac{G\times m_1m_2}{r^2}\right)$ where $F_g$ is the gravitational force, $G$ is Newtons gravitational constant (\hyperref[sec:constants]{$6.67 \times 10^{-11}\;\frac{Nm^2}{kg^2}$}), $m_1$ is the mass of the black hole, $m_2$ is the mass of the object being pulled in, and $r$ is the radius of the black hole (found using the \hyperref[sec:schwarzschild_radius_equation]{Schwarzschild Radius Equation}). The units for gravitational force in this solution are Newtons per Kilogram ($\frac{N}{kg}$).
 
 \subsection{Solving for the Gravitational Force}
 \subsubsection{Variables}
 \begin{itemize}
     \item $Given:\; G = 6.67 \times 10^{-11}\;\frac{Nm^2}{kg^2}$
-    \item $Given:\; M = 1.989\times 10^{30}\;kg$
+    \item $Given:\; m_1 = 1.989\times 10^{30}\;kg$
+    \item $Given:\; m_2 = 1\;kg$
     \item $Solved\; for: R_S = 2.95 \times 10^{3}\;m$
-    \item $Find: F_g = \left(\frac{G\times M}{r^2}\right)$
+    \item $Find: F_g = \left(\frac{Gm_1m_2}{r^2}\right)$
 \end{itemize}\leavevmode
 
 \subsubsection{Solve for Schwarzschild Radius}
-After solving for the Schwarzschild radius, we need to redact our result by a small increment. This is because if the object is smaller than it's Schwarzschild radius, it is a black hole, which in our case, ours is.
+After solving for the Schwarzschild radius, we need to redact our result by a small increment. This is because if the object is smaller than it's Schwarzschild radius, it is a black hole, which in our case, it is.
 \begin{align*}
      & \therefore\;\; R_{S} = \left(\frac{2GM}{c^2}\right) = \left(\frac{2(6.67 \times 10^{-11})(1.989\times 10^{30})}{(299,792,458)^2}\right) \approx 2.95 \times 10^{3} \;m \\\\
      & \therefore\;\; The\; Schwarzschild\; Radius\; (R_{S})\; is\; approximately\; 2.95 \times 10^{3} \;m                                                                    \\
@@ -123,18 +124,21 @@ After solving for the Schwarzschild radius, we need to redact our result by a sm
 \end{align*}\leavevmode
 
 \subsubsection{Solve for Gravitational Force}
-Since we've reached a point where light (a massless particle) is trapped inside the black hole, we can comepletely eliminate $m_2$ from the equation $F_g = \left(\frac{Gm_1m_2}{r^2}\right)$ leaving us with just $F_g = \left(\frac{Gm_1}{r^2}\right)$ where $m_1$ is the mass of the black hole. Recall that $m_1$ is the mass of the gravitational object (i.e. a planet) and $m_2$ is the mass of the object trying to escape its gravitational pull (which in our case is impossible).
+After solving for the Schwarzschild radius, we can now solve for the gravitational force.
 \begin{align*}
-     & \therefore\;\; F_g = \left(\frac{G\times M}{r^2}\right) = \left(\frac{(6.67 \times 10^{-11})(1.989\times 10^{30})}{(2.949 \times 10^{3})^2}\right) \approx 4.5 \times 10^{13} \;\frac{N}{kg} \\\\
+     & \therefore\;\; F_g = \left(\frac{Gm_1m_2}{r^2}\right) = \left(\frac{(6.67 \times 10^{-11})(1.989\times 10^{30})(1)}{{(2.949 \times 10^{3})}^2}\right) \approx 4.5 \times 10^{13} \;\frac{N}{kg} \\\\
      & \therefore\;\; The\; Gravitational\; Force\; (F_g)\; is\; approximately\; 4.5 \times 10^{13} \;\frac{N}{kg}
 \end{align*}
+
+\subsubsection{Black Hole Gravitational Force on Light}
+Discovered by Karl Schwarzschild, the gravitational force of a spinning black hole is $F = \left(\frac{hc^3}{GM\lambda}\right)$ and the gravitational force of a non-spinning black hole is $F = \left(\frac{hc^3}{4GM\lambda}\right)$ where $F$ is the gravitational force, $h$ is Planck's constant (\hyperref[sec:constants]{$6.626 \times 10^{-34}\;\frac{m^2kg}{s}$}), $c$ is the speed of light (\hyperref[sec:constants]{$\approx 299, 792, 458\;\frac{m}{s}$}), $G$ is Newton's gravitational constant (\hyperref[sec:constants]{$6.67 \times 10^{-11}\;\frac{Nm^2}{kg^2}$}), $M$ is the mass of the black hole, and $\lambda$ is the wavelength of the light in meters ($\approx 5.52\times 10^{-7}\; m$).\\\\
 
 \subsection{Gravity in a Black Hole vs Earth}
 The gravitational force ($F_g$) in a black hole is approximately $4.5 \times 10^{13}\; \frac{N}{kg}$ whereas the gravitational force here on earth is approximately $9.81\; \frac{N}{kg}$. This means that the gravitational force in a black hole is approximately $4.6 \times 10^{12}\; \frac{N}{kg}$ times greater than the gravitational force here on earth.
 
 \subsection{Inside a Black Hole}
 \subsubsection{Mass of it's Singularity}
-A singularity is a point in space where extremely large amounts of matter are crushed into an infinitely small volume. This means that the density of the singularity is infinite. Using it's density we can calulate it's mass using the equation: $m = \rho v$ where $m$ is the mass, $\rho$ is the density, and $v$ is the volume. Since $\infty$ is not quantifyable, any substitution of it in any equation produces a result of $\pm \infty$ or 0. Therefore, we can assume that the mass of the singularity is infinite.
+A singularity is a point in space where extremely large amounts of matter are crushed into an infinitely small volume and density. Using either it's density or volume we can calulate it's mass using the equation: $m = \rho v$ where $m$ is the mass, $\rho$ is the density, and $v$ is the volume. Since $\infty$ is not quantifyable, any substitution of it in any equation produces a result of $\pm \infty$ or 0. Therefore, we can assume that the mass of the singularity is $\infty$.
 
 \subsubsection{Gravitational Time Dilation}
 By the time you've reached the singularity in a black hole, you'd be trapped in time. This is because as you come closer to an object of extremely large mass, because of it's distortion in spacetime (See \hyperref[sec:generalrelativity]{Theory of General Relativty}), time moves slower. Therefore we can assume that because the mass of a singularity is infinite, time in a singularity does not increment.
@@ -201,7 +205,7 @@ Hawking Radiation is what makes black holes eventually disappear. To accomodate 
 \begin{itemize}
     \item Speed of Light: $c \approx 299,792,458\;\frac{m}{s}$
     \item Gravitational Constant: $G \approx 6.67 \times 10^{-11}\;\frac{Nm^2}{kg^2}$
-    \item Plancks Constant: $n \approx 6.626 \times 10^{-34}$
+    \item Plancks Constant (Energy and Frequency): $\approx 6.626\times 10^{-34}\frac{m^2kg}{s}$
     \item One Solar Mass: $\approx 1.989 \times 10^{30}$ kg
 \end{itemize}
 
