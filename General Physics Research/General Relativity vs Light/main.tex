@@ -86,10 +86,10 @@ However, because of the black holes distortion in spacetime, light bends around 
 The mass of a black hole is measured by it's factor of solar mass. A solar mass is the mass of our sun which is \hyperref[constants]{$\approx 1.989 \times 10^{30}$} kilograms. Therefore, a black hole with the mass of two solar masses would be $\approx 2(1.989 \times 10^{30}) \approx 3.978 \times 10^{30}$ kilograms.
 \subsection{Schwarzschild Radius}
 \subsubsection{What is it?}
-The Schwarzschild radius is the radius at which a mass has an escape velocity (the velocity required to escape a planets atmosphere) equal to the speed of light. Any object that is smaller than its Schwarzschild radius is a black hole. This is because any object with an escape velocity greater than the speed of light is a black hole.
+The Schwarzschild radius is the radius of the event horizon surrounding a non-rotating black hole. Any large mass that gets compressed smaller than its Schwarzschild radius turns into a black hole. Only a black hole requires an objects velocity to be greater than the speed of light to escape it's gravitational pull.
 
 \subsubsection{Visualization}
-The following image is a visualization of a black hole and it's Schwarzschild radius. \\\\
+The following image is a visualization of a black hole and it's Schwarzschild radius. The singularity is the actual black hole. The event horizon is from the blue dotted circle to the singularity in the middle. Schwarzschild radius describes the distance from the outer of the singularity to the edge of the event horizon.\\\\
 \includegraphics[scale=0.4]{images/schwarzschild_radius.png}
 
 \subsubsection{Schwarzschild Radius Equation}\label{sec:schwarzschild_radius_equation}
@@ -109,11 +109,10 @@ The gravitational force of a black hole can be calculated using the equation: $F
 \end{itemize}\leavevmode
 
 \subsubsection{Solve for Schwarzschild Radius}
-After solving for the Schwarzschild radius, we need to redact our result by a small increment. This is because if the object is smaller than it's Schwarzschild radius, it is a black hole, which in our case, it is.
+After solving for the Schwarzschild radius, we can subtitute it into Isaac Newtons law of universal gravitational equation.
 \begin{align*}
      & \therefore\;\; R_{S} = \left(\frac{2GM}{c^2}\right) = \left(\frac{2(6.67 \times 10^{-11})(1.989\times 10^{30})}{(299,792,458)^2}\right) \approx 2.95 \times 10^{3} \;m \\\\
-     & \therefore\;\; The\; Schwarzschild\; Radius\; (R_{S})\; is\; approximately\; 2.95 \times 10^{3} \;m                                                                    \\
-     & \therefore\;\; The\; Black\; Hole\; Radius\; (r)\; is\; approximately\; < 2.95 \times 10^{3} \;m
+     & \therefore\;\; The\; Schwarzschild\; Radius\; (R_{S})\; is\; approximately\; 2.95 \times 10^{3} \;m
 \end{align*}\leavevmode
 
 \subsubsection{Solve for Gravitational Force}
@@ -124,7 +123,7 @@ After solving for the Schwarzschild radius, we can now solve for the gravitation
 \end{align*}
 
 \subsubsection{Black Hole Gravitational Force on Light}
-Discovered by Karl Schwarzschild, the gravitational force on light of a spinning black hole is $F = \left(\frac{hc^3}{GM\lambda}\right)$ and the gravitational force of on light a non-spinning black hole is $F = \left(\frac{hc^3}{4GM\lambda}\right)$ where $F$ is the gravitational force, $h$ is Planck's constant (\hyperref[sec:constants]{$6.626 \times 10^{-34}\;\frac{m^2kg}{s}$}), $c$ is the speed of light (\hyperref[sec:constants]{$\approx 299, 792, 458\;\frac{m}{s}$}), $G$ is Newton's gravitational constant (\hyperref[sec:constants]{$6.67 \times 10^{-11}\;\frac{Nm^2}{kg^2}$}), $M$ is the mass of the black hole, and $\lambda$ is the wavelength of the light in meters ($\approx 5.52\times 10^{-7}\; m$).\\\\
+Discovered by Karl Schwarzschild, the gravitational force on light of a spinning black hole is $F = \left(\frac{hc^3}{GM\lambda}\right)$ and the gravitational force of on light a non-spinning black hole is $F = \left(\frac{hc^3}{4GM\lambda}\right)$ where $F$ is the gravitational force, $h$ is Planck's constant (\hyperref[sec:constants]{$6.626 \times 10^{-34}\;\frac{m^2kg}{s}$}), $c$ is the speed of light (\hyperref[sec:constants]{$\approx 299, 792, 458\;\frac{m}{s}$}), $G$ is Newton's gravitational constant (\hyperref[sec:constants]{$6.67 \times 10^{-11}\;\frac{Nm^2}{kg^2}$}), $M$ is the mass of the black hole, and $\lambda$ is the wavelength of the light in meters ($\approx 5.52\times 10^{-7}\; m$)
 
 \subsection{Gravity in a Black Hole vs Earth}
 The gravitational force ($F_g$) in a black hole is approximately $4.5 \times 10^{13}\; \frac{N}{kg}$ whereas the gravitational force here on earth is approximately $9.81\; \frac{N}{kg}$. This means that the gravitational force in a black hole is approximately $4.6 \times 10^{12}\; \frac{N}{kg}$ times greater than the gravitational force here on earth.
