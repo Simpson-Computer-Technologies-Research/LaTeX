@@ -1,7 +1,7 @@
 INFO:  latexindent.pl version 3.19, 2022-10-30, a script to indent .tex files
        latexindent.pl lives here: /usr/local/Cellar/latexindent/3.19/libexec/bin/
-       Wed Jan  4 21:34:14 2023
-       Filename: /Users/tristan/Desktop/LaTeX/General Research/Notes/__latexindent_temp_main.tex
+       Fri Jan  6 08:37:07 2023
+       Filename: /Users/tristan/Desktop/LaTeX/Physics Summative/__latexindent_temp_main.tex
 INFO:  Processing switches:
        -y|--yaml: YAML settings specified via command line
        -c|--cruft: cruft directory
@@ -27,7 +27,6 @@ INFO:  YAML settings read: -y switch
        single-quoted string found in -y switch: '    ', substitute to     
        Updating mainSettings with defaultIndent:     
 INFO:  Phase 1: searching for objects
-       No objects found.
 INFO:  Phase 2: finding surrounding indentation
 INFO:  Phase 3: indenting objects
 INFO:  Phase 4: final indentation check
