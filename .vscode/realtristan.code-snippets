@@ -1,0 +1,174 @@
+{
+    "adjust": {
+        "body": [
+            "\\adjust{width=}{items}"
+        ],
+        "description": "Move items to right",
+        "prefix": "\\adjust",
+        "scope": ""
+    },
+    "b": {
+        "body": [
+            "b{}"
+        ],
+        "description": "Bold Text",
+        "prefix": "\\b",
+        "scope": ""
+    },
+    "bit": {
+        "body": [
+            "bit{}"
+        ],
+        "description": "Bold Italic Text",
+        "prefix": "\\bit",
+        "scope": ""
+    },
+    "ee": {
+        "body": [
+            "ee{k=, x=}"
+        ],
+        "description": "1/2kx^2",
+        "prefix": "\\ee",
+        "scope": ""
+    },
+    "ek": {
+        "body": [
+            "ek{m=, v=}"
+        ],
+        "description": "1/2mv^2",
+        "prefix": "\\ek",
+        "scope": ""
+    },
+    "email": {
+        "body": [
+            "email{}"
+        ],
+        "description": "Referrable Email Text",
+        "prefix": "\\email",
+        "scope": ""
+    },
+    "etot": {
+        "body": [
+            "etot"
+        ],
+        "description": "Etot Variable",
+        "prefix": "\\etot",
+        "scope": ""
+    },
+    "flex": {
+        "body": [
+            "\\flex{width=}{item}"
+        ],
+        "description": "Minipage",
+        "prefix": "\\flex",
+        "scope": ""
+    },
+    "header": {
+        "body": [
+            "header{}"
+        ],
+        "description": "Labeled Header",
+        "prefix": "\\header",
+        "scope": ""
+    },
+    "image": {
+        "body": [
+            "image{scale=}{path}"
+        ],
+        "description": "Image",
+        "prefix": "\\image",
+        "scope": ""
+    },
+    "it": {
+        "body": [
+            "it{}"
+        ],
+        "description": "Italic Text",
+        "prefix": "\\it",
+        "scope": ""
+    },
+    "kina": {
+        "body": [
+            "kina{d=, v1=, t=, a=}"
+        ],
+        "description": "d = [v1 * t] + [(a * t^2) / 2]",
+        "prefix": "\\kina",
+        "scope": ""
+    },
+    "kinb": {
+        "body": [
+            "kinb{d=, v2=, t=, a=}"
+        ],
+        "description": "d = v2 * t - [(a * t^2) / 2]",
+        "prefix": "\\kinb",
+        "scope": ""
+    },
+    "kinc": {
+        "body": [
+            "kinc{d=, v1=, v2=, t=}"
+        ],
+        "description": "d = [(v1 + v2) / 2] * t",
+        "prefix": "\\kinc",
+        "scope": ""
+    },
+    "kind": {
+        "body": [
+            "kind{v2=, v1=, t=, a=}"
+        ],
+        "description": "v2 = v1 + a * t",
+        "prefix": "\\kind",
+        "scope": ""
+    },
+    "kine": {
+        "body": [
+            "kine{v2=, v1=, d=, a=}"
+        ],
+        "description": "v2 = v1 + 2(a * d)",
+        "prefix": "\\kine",
+        "scope": ""
+    },
+    "lalign": {
+        "body": [
+            "begin{flalign}",
+            "\\end{flalign}"
+        ],
+        "description": "Left Align",
+        "prefix": "\\lalign",
+        "scope": ""
+    },
+    "lalign*": {
+        "body": [
+            "begin{flalign*}",
+            "\\end{flalign*}"
+        ],
+        "description": "Left Align *",
+        "prefix": "\\lalign",
+        "scope": ""
+    },
+    "malign": {
+        "body": [
+            "begin{align}",
+            "\\end{align}"
+        ],
+        "description": "Middle Align",
+        "prefix": "\\malign",
+        "scope": ""
+    },
+    "malign*": {
+        "body": [
+            "begin{align*}",
+            "\\end{align*}"
+        ],
+        "description": "Middle Align *",
+        "prefix": "\\malign",
+        "scope": ""
+    },
+    "ptot": {
+        "body": [
+            "ptot"
+        ],
+        "description": "Ptot Variable",
+        "prefix": "\\ptot",
+        "scope": ""
+    }
+}
