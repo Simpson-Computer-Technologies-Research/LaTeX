@@ -13,9 +13,8 @@ $\sqrt{\frac{1}{2}}$
 
 # Electrons Wave-Particle Duality and Superposition
 - The electron itself is a particle but it moves like a wave
-- Because of superposition the electrons wave is in multiple positions at the same time.
+- Because of superposition the electron and its wave are in multiple positions at the same time.
 - This is why when only one electron is shot through the double slits there is basically two electrons going through the slit at the same time (because of superposition)
 - An since two electrons are going through the slit at the same time, and electrons also act as waves, deconstructive and constructive interference happens which forms a pattern on the screen
-- Search up "interference electron waves"
-- Search up "how do we know superposition is true"
-- Search up "how do we know electrons abide by superposition"
+- Almost anything can be in a superposition of states. This includes, neutrons, protons, quarks, cats! (this is why the "Schrödinger's Cat" hypothetical experiment is awesome)
+- It was the double slit experiment with electrons that proved that electrons are both waves and particles. This experiment also proved superposition because the electron didn't go through one slit, instead, it went through both. (the electron's superposition were infront of the other slit)
