@@ -16,4 +16,6 @@ $\sqrt{\frac{1}{2}}$
 - Because of superposition the electrons wave is in multiple positions at the same time.
 - This is why when only one electron is shot through the double slits there is basically two electrons going through the slit at the same time (because of superposition)
 - An since two electrons are going through the slit at the same time, and electrons also act as waves, deconstructive and constructive interference happens which forms a pattern on the screen
-- Search up interference electron waves
+- Search up "interference electron waves"
+- Search up "how do we know superposition is true"
+- Search up "how do we know electrons abide by superposition"
