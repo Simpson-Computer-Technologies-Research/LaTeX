@@ -3,7 +3,7 @@
 
 # To-do
 - Add Multiple Choice
-- THE TOTAL MARKS MUST BE FROM 100 to 110 NOT OVER 200 WHICH IS WHAT I HAVE RIGHT NOW!
+- THE TOTAL MARKS MUST BE FROM 110 to 120
 - Momentum + Energy Equations
 - Dynamics + Motion Equations
 - Bonus Kinematics + Forces + Energy + Momentum Equations
