@@ -2,6 +2,8 @@
 ![LaTeX_logo](https://user-images.githubusercontent.com/75189508/205197994-f6a28162-6a7c-4431-8ed4-dded53703d8a.svg)
 
 # To-do
+- Add Multiple Choice
+- THE TOTAL MARKS MUST BE FROM 100 to 110 NOT OVER 200 WHICH IS WHAT I HAVE RIGHT NOW!
 - Momentum + Energy Equations
 - Dynamics + Motion Equations
 - Bonus Kinematics + Forces + Energy + Momentum Equations
