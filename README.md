@@ -5,6 +5,7 @@
 - Momentum + Energy Equations
 - Dynamics + Motion Equations
 - Bonus Kinematics + Forces + Energy + Momentum Equations
+- Solve for everything and make a Solutions document
 
 # About
 - Finished learning the basics of LaTeX. As of now i'm using it for my current physics and math courses.
