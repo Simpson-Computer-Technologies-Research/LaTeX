@@ -38,13 +38,13 @@ Solve the equation by dividing 5x by 2x then moving the resulting $\frac{5}{2}$ 
 >
 > = $5\frac{ln(x^2 + 5)}{4} + c$
 >
-> = $\frac{ln(x^2 + 5)^5}{4} + c$
->
-> $\therefore$ $\int \frac{5x}{(x^2+5)}dx$ = $\frac{ln(x^2 + 5)^5}{4} + c$
+> $\therefore$ $\int \frac{5x}{(x^2+5)}dx = 5\frac{ln(x^2 + 5)}{4} + c$
 > ‏‏‎ ‎
 
-# **Notes:**
-## **Derivation:**
+<br><br>
+
+# **Notes**
+## **Derivation**
 The derivation of a function is defined as $f(x)\prime$
 > ‏‏‎ ‎
 > $f(x)\prime = \frac{d}{dx}[f(x)]$
