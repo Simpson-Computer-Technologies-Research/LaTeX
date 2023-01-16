@@ -5,7 +5,7 @@
 
 
 # Integration with U-Substitution and Natural Logarithms
-The best way to solve complex logarithms that contain a binomial in both the numerator and denomator of f(x) is to use u-substitution.
+We can solve a complex integral that contains a binomial in both the numerator and denominator of $f(x)$ using u-substitution.
 
 ### **Question 1:**
 Solve the integral below using u-substitution and natural logarithms.
@@ -13,7 +13,7 @@ Solve the integral below using u-substitution and natural logarithms.
 > $\int \frac{(x+5)}{(x^2+5)}dx$
 > ‏‏‎ ‎
 
-### **U-Substitution:**
+### **Prepare the U-Substitution:**
 Set $\mu$ to $(x^2 + 5)$ then solve for $d\mu$
 > ‏‏‎ ‎
 > $let$ $\mu = (x^2 + 5)$
@@ -31,13 +31,13 @@ Solve the equation by moving the numerator constants to the front of the integra
 > ‏‏‎ ‎
 > = $\int \frac{x+5}{\mu}\frac{d\mu}{2x}$
 >
-> = $\frac{1}{2}\int \frac{5}{\mu}d\mu$
+> = $\frac{1}{2}\int \frac{5}{2x\mu}d\mu$
 >
-> = $\frac{5}{2}\int \frac{1}{\mu}d\mu$
+> = $\frac{5}{4}\int \frac{1}{x\mu}d\mu$
 >
-> = $\frac{5}{2}\int \frac{1}{(x^2 +5)}dx$
+> = $\frac{5}{4}\int \frac{1}{x(x^2 +5)}dx$
 >
-> = $\frac{5}{2}$ $ln(x^2 + 5) + C$
+> = $\frac{5}{4}$ $ln(x^3 + 5x) + C$
 >
-> $\therefore$ $\int \frac{(x+5)}{(x^2+5)}dx$ = $\frac{5}{2}$ $ln(x^2 + 5) + C$
+> $\therefore$ $\int \frac{(x+5)}{(x^2+5)}dx$ = $\frac{5}{4}$ $ln(x^3 + 5x) + C$
 > ‏‏‎ ‎
