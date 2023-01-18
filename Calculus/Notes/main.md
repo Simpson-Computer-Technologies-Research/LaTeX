@@ -32,13 +32,11 @@ Solve the equation by dividing 5x by 2x then moving the resulting $\frac{5}{2}$ 
 >
 > = $\frac{5}{2}\int \frac{1}{\mu}d\mu$
 >
-> = $\frac{5}{2}\int \frac{1}{(x^2 +5)}dx$
+> = $\frac{5}{2}ln(\mu) + c$
 >
-> = $\frac{5}{2}$ $\frac{ln(x^2 + 5)}{2} + c$
+> = $\frac{5}{2}ln(x^2 + 5) + c$
 >
-> = $5\frac{ln(x^2 + 5)}{4} + c$
->
-> $\therefore$ $\int \frac{5x}{(x^2+5)}dx = 5\frac{ln(x^2 + 5)}{4} + c$
+> $\therefore$ $\int \frac{5x}{(x^2+5)}dx = \frac{5}{2}ln(x^2 + 5) + c$
 > ‏‏‎ ‎
 
 <br><br>
