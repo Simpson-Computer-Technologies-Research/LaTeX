@@ -34,4 +34,6 @@ $\sqrt{\frac{1}{2}}$
 - In order to produce a high frequency, you need more energy. In order to produce a low frequency, you need less energy.
 - A photon is a little packet of waves that behave like particles.
 - Compton confirmed Einstein's photoelectric effect with his "Compton Scattering" which utilized the Bohr-Rutherford diagram.
-- 
+- Light waves always travel at a constant speed. ($c$)
+- A photon clock defines time dilation
+- Twin paradox
