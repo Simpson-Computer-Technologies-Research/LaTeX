@@ -37,3 +37,6 @@ $\sqrt{\frac{1}{2}}$
 - Light waves always travel at a constant speed. ($c$)
 - A photon clock defines time dilation
 - Twin paradox
+
+# Time Dilation
+- we just learned about relative velocity time dilation...
