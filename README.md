@@ -1,14 +1,6 @@
 # LaTeX ![Stars](https://img.shields.io/github/stars/Simpson-Computer-Technologies-Research/LaTeX?color=brightgreen) ![Watchers](https://img.shields.io/github/watchers/Simpson-Computer-Technologies-Research/LaTeX?label=Watchers)
 ![LaTeX_logo](https://user-images.githubusercontent.com/75189508/205197994-f6a28162-6a7c-4431-8ed4-dded53703d8a.svg)
 
-# To-do
-- Add Multiple Choice
-- THE TOTAL MARKS MUST BE FROM 110 to 120
-- Momentum + Energy Equations
-- Dynamics + Motion Equations
-- Bonus Kinematics + Forces + Energy + Momentum Equations
-- Solve for everything and make a Solutions document
-
 # About
 - Finished learning the basics of LaTeX. As of now i'm using it for my current physics and math courses.
 - I was bored and made a library in python for building LaTeX Documents. https://github.com/realTristan/ratex
